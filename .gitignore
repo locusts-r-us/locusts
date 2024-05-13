@@ -109,3 +109,6 @@ GNUmakefile
 /build-aux
 *~
 ocusts.pc
+
+# CMake
+build/**/*
