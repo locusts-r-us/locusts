@@ -11,7 +11,7 @@ Introduces locusts into your codebase.
 Note: locusts are not included with installing this library. Please source your
 own.
 */
-void introduce_locusts(void) { return; }
+void introduce_locusts(void);
 
 #ifdef __cplusplus
 }

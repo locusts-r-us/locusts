@@ -1,12 +1,14 @@
 project('locusts', 'c', version: '1.0.0', default_options: ['warning_level=3'])
 
-source = 'include/locusts.h'
+source = 'src/locusts.c'
+header = 'include/locusts.h'
+includes = include_directories('include')
 
-lib = library('ocusts', source, install: true, version: meson.project_version(), soversion: '1')
+lib = library('ocusts', source, include_directories: includes, install: true, version: meson.project_version(), soversion: '1')
 
-project_dep =declare_dependency(include_directories: include_directories('include'))
+project_dep =declare_dependency(include_directories: includes)
 
-install_headers(source)
+install_headers(header)
 
 pkg = import('pkgconfig')
 pkg.generate(lib, description: 'A completely normal C library')
