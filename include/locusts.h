@@ -17,4 +17,4 @@ void introduce_locusts(void) { return; }
 }
 #endif
 
-#endif  // LOCUSTS_H
+#endif /* LOCUSTS_H */

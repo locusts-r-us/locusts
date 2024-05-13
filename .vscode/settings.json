@@ -1,3 +1,5 @@
 {
-	"mesonbuild.configureOnOpen": true
+	"mesonbuild.configureOnOpen": true,
+	"C_Cpp.default.compileCommands": "/home/user/src/locusts-r-us/libocusts/builddir/compile_commands.json",
+	"C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild"
 }

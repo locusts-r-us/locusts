@@ -1,0 +1,9 @@
+prefix=@prefix@
+includedir=@includedir@
+libdir=@libdir@
+
+Name: ocusts
+Description: A completely normal C library
+Version: @VERSION@
+Libs: -L${libdir} -locusts
+Cflags: -I${includedir}
