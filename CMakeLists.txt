@@ -10,11 +10,13 @@ set_target_properties(objlib PROPERTIES LINKER_LANGUAGE C)
 add_library(ocusts SHARED $<TARGET_OBJECTS:objlib> include/locusts.h)
 target_link_libraries(ocusts PUBLIC objlib)
 set_target_properties(ocusts PROPERTIES LINKER_LANGUAGE C)
+set_target_properties(ocusts PROPERTIES VERSION ${PROJECT_VERSION} SOVERSION ${PROJECT_VERSION_MAJOR})
 
 add_library(ocusts_static STATIC $<TARGET_OBJECTS:objlib> include/locusts.h)
 target_link_libraries(ocusts_static PUBLIC objlib)
 set_target_properties(ocusts_static PROPERTIES LINKER_LANGUAGE C)
 
+# Make autoconf and cmake agree with each other
 set(prefix ${CMAKE_INSTALL_PREFIX})
 set(libdir $\${prefix}/${CMAKE_INSTALL_LIBDIR})
 set(includedir \${prefix}/${CMAKE_INSTALL_INCLUDEDIR})

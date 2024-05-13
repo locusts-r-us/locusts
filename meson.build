@@ -2,7 +2,7 @@ project('locusts', 'c', version: '1.0.0', default_options: ['warning_level=3'])
 
 source = 'include/locusts.h'
 
-lib = library('ocusts', source, install: true)
+lib = library('ocusts', source, install: true, version: meson.project_version(), soversion: '1')
 
 project_dep =declare_dependency(include_directories: include_directories('include'))
 
