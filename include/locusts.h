@@ -1,3 +1,4 @@
+/** @file */
 #ifndef LOCUSTS_H
 #define LOCUSTS_H
 
@@ -5,12 +6,12 @@
 extern "C" {
 #endif
 
-/*
-Introduces locusts into your codebase.
-
-Note: locusts are not included with installing this library. Please source your
-own.
-*/
+/**
+ * @brief Add locusts to your codebase.
+ *
+ * NOTE: Locusts are not included in this library.
+ * You will have to provide your own.
+ */
 void introduce_locusts(void);
 
 #ifdef __cplusplus
