@@ -34,3 +34,10 @@ install(
 	ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
 	PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
 )
+
+add_executable(test_locusts tests/test_locusts.c)
+target_link_libraries(test_locusts PRIVATE ocusts)
+
+enable_testing()
+
+add_test(NAME test_locusts COMMAND test_locusts)

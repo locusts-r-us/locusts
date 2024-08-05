@@ -1,18 +1,17 @@
-name: C
+name: Python
 
 on:
   push:
     paths:
-      - "**.c"
-      - "**.h"
+      - '**.py'
+      - 'pyproject.toml'
   pull_request:
     paths:
-      - "**.c"
-      - "**.h"
+      - '**.py'
+      - 'pyproject.toml'
 
 jobs:
-  cmake:
-    name: CMake Builds
+  build:
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
@@ -21,9 +20,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Configure CMake
-        run: cmake -B build -S .
-      - name: Build
-        run: cmake --build build
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
       - name: Test
-        run: ctest --test-dir build --output-on-failure
+        run: python -m unittest discover -s src/locusts-r-us

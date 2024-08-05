@@ -9,8 +9,8 @@ extern "C" {
 /**
  * @brief Add locusts to your codebase.
  *
- * NOTE: Locusts are not included in this library.
- * You will have to provide your own.
+ *  Note that locusts are not included with this package,
+ * you must provide your own.
  */
 void introduce_locusts(void);
 

@@ -3,12 +3,12 @@ name: Rust
 on:
   push:
     paths:
-      - "**.c"
-      - "**.h"
+      - "**.rs"
+      - "Cargo.**"
   pull_request:
     paths:
-      - "**.c"
-      - "**.h"
+      - "**.rs"
+      - "Cargo.**"
 
 jobs:
   rust:
