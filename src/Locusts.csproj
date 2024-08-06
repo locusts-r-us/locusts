@@ -15,7 +15,7 @@
 
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageLicenseExpression>0BSD</PackageLicenseExpression>
-        <PackageReadmeFile>docs/.NET.md</PackageReadmeFile>
+        <PackageReadmeFile>.NET.md</PackageReadmeFile>
         <RepositoryURL>https://github.com/locusts-r-us/locusts</RepositoryURL>
         <RepositoryType>git</RepositoryType>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
@@ -27,7 +27,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="..\docs\.NET.md" Pack="true" PackagePath="docs" />
+        <None Include="..\docs\.NET.md" Pack="true" PackagePath="\"  />
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="*-*" PrivateAssets="all" />
         <PackageReference Include="MinVer" Version="*-*">
             <PrivateAssets>all</PrivateAssets>
