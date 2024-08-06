@@ -2,9 +2,9 @@ name: C
 
 on:
   push:
-    # paths:
-    #   - "**.c"
-    #   - "**.h"
+    paths:
+      - "**.c"
+      - "**.h"
   pull_request:
     paths:
       - "**.c"
@@ -26,7 +26,7 @@ jobs:
       - name: Build
         run: cmake --build build
       - name: Test
-        run: ctest --test-dir build --output-on-failure
+        run: ctest --test-dir build --output-on-failure -C Debug
 
   meson:
     name: Meson Builds

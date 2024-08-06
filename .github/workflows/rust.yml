@@ -2,9 +2,9 @@ name: Rust
 
 on:
   push:
-    # paths:
-    #   - "**.rs"
-    #   - "Cargo.**"
+    paths:
+      - "**.rs"
+      - "Cargo.**"
   pull_request:
     paths:
       - "**.rs"
