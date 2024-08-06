@@ -2,10 +2,10 @@ name: .NET
 
 on:
   push:
-    # paths:
-      # - "**.cs"
-      # - "**.csproj"
-      # - "**.sln"
+    paths:
+      - "**.cs"
+      - "**.csproj"
+      - "**.sln"
   pull_request:
     paths:
       - "**.cs"
