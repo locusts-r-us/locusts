@@ -5,6 +5,7 @@ We here at Locusts-R-Us have developed a series of libraries for all sorts of pr
 ## Currently Supported Languages
 
 - [C/C++](./docs/C.md)
-- [Rust](./docs/Rust.md)
 - [Go](./docs/Go.md)
+- [Rust](./docs/Rust.md)
 - [Python](./docs/Python.md)
+- [C#/F#](./docs/.NET.md)

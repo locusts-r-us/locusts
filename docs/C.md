@@ -10,6 +10,7 @@ Why would you want to do that? I don't know.
 
 ```c
 #include "locusts.h"
+
 int main(void) {
  introduce_locusts();
  /* Locusts are now in your codebase! */
