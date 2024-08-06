@@ -2,9 +2,9 @@ name: Docker
 
 on:
   push:
-    paths:
-      - "Dockerfile"
-      - "include/locusts.go"
+    # paths:
+      # - "Dockerfile"
+      # - "include/locusts.go"
   pull_request:
     paths:
       - "Dockerfile"

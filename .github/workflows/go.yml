@@ -2,9 +2,9 @@ name: Go
 
 on:
   push:
-    paths:
-      - '**.go'
-      - '**go.mod'
+    # paths:
+    #   - '**.go'
+    #   - '**go.mod'
   pull_request:
     paths:
       - '**.go'
