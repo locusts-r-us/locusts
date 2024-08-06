@@ -10,8 +10,6 @@ The punchline of [XKCD 797](https://xkcd.com/797/). (Pictured below)
 
 [![XKCD 797 "DEBIAN-MAIN"](https://imgs.xkcd.com/comics/debian_main.png)](https://xkcd.com/797/)
 
-Including locusts as a dependency in your codebase is probably a terrible idea from a security standpoint, but it's very funny.
-
 ### Why would you do this?
 
 It's funny.
@@ -23,6 +21,11 @@ No.
 ### How do I add these to my projects?
 
 See the documentation below.
+
+### Can I contribute?
+
+Yes! Please do! We welcome all contributions.
+See the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more information.
 
 ## Currently Supported Languages
 
