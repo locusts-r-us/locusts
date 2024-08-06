@@ -1,5 +1,7 @@
 # locusts-r-us
 
+[![Python](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml)
+
 ## Description
 
 locusts-r-us is a library that provides a way to introduce locusts into your code.

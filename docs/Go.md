@@ -1,5 +1,7 @@
 # Locusts
 
+[![Go](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml)
+
 ## Description
 
 Locusts is a library that provides a way to introduce locusts into your code.

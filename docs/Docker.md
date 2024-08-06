@@ -1,5 +1,7 @@
 # Locusts
 
+[![Docker](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml)
+
 A docker container containing locusts also exist.
 
 If you would like to add locusts to your company's servers, you can use the following command:

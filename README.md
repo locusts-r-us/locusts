@@ -1,5 +1,14 @@
 # Locusts: A universal library
 
+[![C](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml)
+[![Docker](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml)
+[![.NET](https://github.com/locusts-r-us/locusts/actions/workflows/dotnet.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/dotnet.yml)
+[![Go](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml)
+[![Python](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml)
+[![Rust](https://github.com/locusts-r-us/locusts/actions/workflows/rust.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/rust.yml)
+
+
+
 We here at Locusts-R-Us have developed a series of libraries for all sorts of programming languages to introduce locusts in all sorts of codebases.
 
 ## FAQ
@@ -33,7 +42,7 @@ See the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more information.
 - [Go](./docs/Go.md)
 - [Rust](./docs/Rust.md)
 - [Python](./docs/Python.md)
-- [C#/F#](./docs/.NET.md)
+- [C#/F#](./docs/.NET.md) 
 
 ### Not a language but
 

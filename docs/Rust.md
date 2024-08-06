@@ -1,5 +1,7 @@
 # locusts
 
+[![Rust](https://github.com/locusts-r-us/locusts/actions/workflows/rust.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/rust.yml)
+
 ## Description
 
 locusts is a library that provides a way to introduce locusts into your code.
