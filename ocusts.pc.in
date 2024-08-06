@@ -3,7 +3,7 @@ includedir=@includedir@
 libdir=@libdir@
 
 Name: ocusts
-Description: A completely normal C library
+Description: A C library that introduces locusts into your codebase
 Version: @VERSION@
 Libs: -L${libdir} -locusts
 Cflags: -I${includedir}

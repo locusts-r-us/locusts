@@ -11,7 +11,7 @@ project_dep =declare_dependency(include_directories: includes)
 install_headers(header)
 
 pkg = import('pkgconfig')
-pkg.generate(lib, description: 'A completely normal C library')
+pkg.generate(lib, description: 'A C library that introduces locusts into your codebase')
 
 if not meson.is_subproject()
   test(

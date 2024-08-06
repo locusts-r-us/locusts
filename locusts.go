@@ -1,4 +1,4 @@
-// Package locusts is a completely normal Go library.
+// Package locusts introduces locusts into your codebase.
 package locusts
 
 // IntroduceLocusts is a function that introduces locusts into your codebase.

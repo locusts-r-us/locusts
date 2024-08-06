@@ -1,3 +1,17 @@
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "locusts-r-us"
+version = "1.0.0"
+authors = [
+	{ name = "Matt Strapp", email = "matt+locusts@mattstrapp.net"}
+]
+description = "A Python package that introduces locusts into your codebase"
+readme = "docs/Python.md"
+classifiers = [
+	"Programming Language :: Python",
+	"License :: OSI Approved :: Zero-Clause BSD (0BSD)",
+	"Operating System :: OS Independent"
+]

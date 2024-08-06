@@ -1,6 +1,10 @@
 [package]
 name = "locusts"
 version = "1.0.0"
-edition = "2021"
+description = "A Rust library that introduces locusts into your codebase"
+authors = ["Matt Strapp <matt+locusts@mattstrapp.net>"]
+readme = "docs/Rust.md"
+license = "0BSD"
+edition = "2015"
 
 [dependencies]
