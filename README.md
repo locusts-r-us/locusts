@@ -13,9 +13,7 @@ We here at Locusts-R-Us have developed a series of libraries for all sorts of pr
 
 ### Why Locusts?
 
-The punchline of [XKCD 797](https://xkcd.com/797/). (Pictured below)
-
-[![XKCD 797 "DEBIAN-MAIN"](https://imgs.xkcd.com/comics/debian_main.png)](https://xkcd.com/797/)
+[![XKCD 797 "DEBIAN-MAIN"](https://imgs.xkcd.com/comics/debian_main.png "dpkg: error processing package (--purge): subprocess pre-removal script returned error exit 163: OH_GOD_THEYRE_INSIDE_MY_CLOTHES")](https://xkcd.com/797/)
 
 ### Why would you do this?
 
@@ -42,7 +40,7 @@ See the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more information.
 - [Python](./docs/Python.md)
 - [C#/F#](./docs/.NET.md)
 
-### Not a language but
+### Not a language but still supported
 
 - [Docker](./docs/Docker.md)
 
