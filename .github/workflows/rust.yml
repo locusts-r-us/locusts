@@ -14,7 +14,7 @@ on:
 
 jobs:
   rust:
-    name: Rust Builds
+    name: Build and Test (Rust)
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false

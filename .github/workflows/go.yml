@@ -14,6 +14,7 @@ on:
 
 jobs:
   build:
+    name: Build and Test (Go)
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
