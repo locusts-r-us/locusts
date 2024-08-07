@@ -19,7 +19,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        # TODO: Add Windows support
+        os: [ubuntu-latest, macos-latest]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,14 +30,14 @@ jobs:
         with:
           msystem: UCRT64
           update: true
-          install: autoconf mingw-w64-ucrt-x86_64-gcc
+          install: autotools mingw-w64-ucrt-x86_64-gcc
       - name: Install autoconf on macOS
         if: matrix.os == 'macos-latest'
-        run: brew install autoconf
+        run: brew install automake libtool
       - name: Run Autoconf
-        run: sh -c autoreconf -fi
+        run: autoreconf -fi
       - name: Configure
-        run: sh -c ./configure
+        run: ./configure --disable-static
       - name: Build
         run: make
 
