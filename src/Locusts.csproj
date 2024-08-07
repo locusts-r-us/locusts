@@ -5,12 +5,12 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFrameworks>net20;netstandard2.0</TargetFrameworks>
         <LangVersion>latest</LangVersion>
         <IsPackable>true</IsPackable>
         <IsTrimmable Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net6.0'))">true</IsTrimmable>
         <IsAotCompatible Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net7.0'))">true</IsAotCompatible>
-        <ImplicitUsings>enable</ImplicitUsings>
+        <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -27,7 +27,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="..\docs\.NET.md" Pack="true" PackagePath="\"  />
+        <None Include="..\docs\.NET.md" Pack="true" PackagePath="\" />
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="*-*" PrivateAssets="all" />
         <PackageReference Include="MinVer" Version="*-*">
             <PrivateAssets>all</PrivateAssets>
