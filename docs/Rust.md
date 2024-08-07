@@ -17,7 +17,7 @@ Add this to your `Cargo.toml`:
 locusts = "1"
 ```
 
-or
+or run the following
 
 ```sh
 cargo add locusts

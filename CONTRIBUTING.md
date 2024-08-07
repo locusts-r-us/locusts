@@ -33,4 +33,3 @@ If you'd like to add a new language to the repository, please follow these guide
   - A basic way to add the library as a dependency
   - An example of how to use the library
   - A link on the README.md to the new language documentation
-

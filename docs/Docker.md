@@ -7,7 +7,7 @@ A docker container containing locusts also exist.
 If you would like to add locusts to your company's servers, you can use the following command:
 
 ```bash
-docker run -it --rm ghcr.io/locusts-r-us/locusts:latest
+docker run --rm ghcr.io/locusts-r-us/locusts:master
 ```
 
 That's it. There are locusts now in your computer.
