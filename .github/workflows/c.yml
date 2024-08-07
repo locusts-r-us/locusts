@@ -30,10 +30,13 @@ jobs:
           msystem: UCRT64
           update: true
           install: autoconf mingw-w64-ucrt-x86_64-gcc
+      - name: Install autoconf on macOS
+        if: matrix.os == 'macos-latest'
+        run: brew install autoconf
       - name: Run Autoconf
-        run: autoreconf -fi
+        run: sh -c autoreconf -fi
       - name: Configure
-        run: ./configure
+        run: sh -c ./configure
       - name: Build
         run: make
 
