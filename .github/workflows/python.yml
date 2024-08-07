@@ -3,12 +3,14 @@ name: Python
 on:
   push:
     paths:
-      - '**.py'
-      - 'pyproject.toml'
+      - "**.py"
+      - "pyproject.toml"
+      - ".github/workflows/python.yml"
   pull_request:
     paths:
-      - '**.py'
-      - 'pyproject.toml'
+      - "**.py"
+      - "pyproject.toml"
+      - ".github/workflows/python.yml"
 
 jobs:
   build:
@@ -23,6 +25,6 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
       - name: Test
         run: python -m unittest discover -s src/locusts-r-us

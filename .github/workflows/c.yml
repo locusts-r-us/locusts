@@ -5,10 +5,12 @@ on:
     paths:
       - "**.c"
       - "**.h"
+      - ".github/workflows/c.yml"
   pull_request:
     paths:
       - "**.c"
       - "**.h"
+      - ".github/workflows/c.yml"
 
 jobs:
   cmake:
@@ -41,7 +43,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
       - name: Install dependencies
         run: python -m pip install meson ninja
       - name: Configure Meson

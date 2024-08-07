@@ -5,10 +5,12 @@ on:
     paths:
       - "**.rs"
       - "Cargo.**"
+      - ".github/workflows/rust.yml"
   pull_request:
     paths:
       - "**.rs"
       - "Cargo.**"
+      - ".github/workflows/rust.yml"
 
 jobs:
   rust:

@@ -5,10 +5,12 @@ on:
     paths:
       - "Dockerfile"
       - "include/locusts.go"
+      - ".github/workflows/docker.yml"
   pull_request:
     paths:
       - "Dockerfile"
       - "include/locusts.go"
+      - ".github/workflows/docker.yml"
 
 env:
   REGISTRY: ghcr.io
@@ -30,11 +32,11 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          go-version: 'oldstable'
+          go-version: "oldstable"
       - name: Set up Tinygo
         uses: acifani/setup-tinygo@v2
         with:
-          install-binaryen: 'false'
+          install-binaryen: "false"
       - name: Build the file
         run: tinygo build -o locusts ./include
       - name: Extract metadata

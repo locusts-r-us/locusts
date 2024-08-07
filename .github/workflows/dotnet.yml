@@ -6,11 +6,13 @@ on:
       - "**.cs"
       - "**.csproj"
       - "**.sln"
+      - ".github/workflows/dotnet.yml"
   pull_request:
     paths:
       - "**.cs"
       - "**.csproj"
       - "**.sln"
+      - ".github/workflows/dotnet.yml"
 
 jobs:
   test:
