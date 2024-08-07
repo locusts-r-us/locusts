@@ -8,6 +8,4 @@
 	],
 	"python.testing.pytestEnabled": false,
 	"python.testing.unittestEnabled": true,
-	"C_Cpp.default.compileCommands": "/home/user/src/locusts-r-us/locusts/builddir/compile_commands.json",
-	"C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild"
 }
