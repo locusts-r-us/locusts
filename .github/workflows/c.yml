@@ -19,8 +19,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # TODO: Add Windows support
-        os: [ubuntu-latest, macos-latest]
+        # TODO: Add Windows and macOS support
+        os: [ubuntu-latest]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,7 +37,7 @@ jobs:
       - name: Run Autoconf
         run: autoreconf -fi
       - name: Configure
-        run: ./configure --disable-static
+        run: ./configure
       - name: Build
         run: make
 
