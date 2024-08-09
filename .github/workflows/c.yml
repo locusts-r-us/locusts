@@ -5,11 +5,21 @@ on:
     paths:
       - "**.c"
       - "**.h"
+      - "CMakeLists.txt"
+      - "meson.build"
+      - "configure.ac"
+      - "GNUMakefile.am"
+      - "ocusts.pc.in"
       - ".github/workflows/c.yml"
   pull_request:
     paths:
       - "**.c"
       - "**.h"
+      - "CMakeLists.txt"
+      - "meson.build"
+      - "configure.ac"
+      - "GNUMakefile.am"
+      - "ocusts.pc.in"
       - ".github/workflows/c.yml"
 
 jobs:
