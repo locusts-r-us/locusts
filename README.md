@@ -4,6 +4,7 @@
 [![Docker](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml)
 [![.NET](https://github.com/locusts-r-us/locusts/actions/workflows/dotnet.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/dotnet.yml)
 [![Go](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml)
+[![Node.js](https://github.com/locusts-r-us/locusts/actions/workflows/node.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/node.yml)
 [![Python](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml)
 [![Rust](https://github.com/locusts-r-us/locusts/actions/workflows/rust.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/rust.yml)
 
