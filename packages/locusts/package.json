@@ -1,0 +1,33 @@
+{
+  "name": "locusts",
+  "description": "An npm package that introduces locusts into your codebase.",
+  "version": "1.0.0",
+  "author": "Matt Strapp <matt+locusts@mattstrapp.net> (https://mattstrapp.net)",
+  "bugs": "https://github.com/locusts-r-us/locusts/issues",
+
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^22.1.0",
+    "tsup": "^8.2.4",
+    "tsx": "^4.16.5",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [],
+  "license": "0BSD",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/locusts-r-us/locusts.git",
+    "directory": "packages/locusts"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "lint": "eslint src --fix",
+    "lint:ci": "eslint src",
+    "test": "node --test --import tsx ./tests/locusts.test.ts"
+  },
+  "types": "./dist/index.d.ts"
+}

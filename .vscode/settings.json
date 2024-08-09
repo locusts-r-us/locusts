@@ -1,11 +1,18 @@
 {
-	"python.testing.unittestArgs": [
-		"-v",
-		"-s",
-		"./src/locusts-r-us",
-		"-p",
-		"test_*.py"
-	],
-	"python.testing.pytestEnabled": false,
-	"python.testing.unittestEnabled": true,
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./src/locusts-r-us",
+    "-p",
+    "test_*.py"
+  ],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true,
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "C_Cpp.default.compileCommands": "/home/user/src/locusts/libocusts/builddir/compile_commands.json",
+  "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild"
 }

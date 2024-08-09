@@ -11,9 +11,9 @@ We here at Locusts-R-Us have developed a series of libraries for all sorts of pr
 
 ## FAQ
 
-### Why Locusts?
+### Why the name `Locusts`?
 
-[![XKCD 797 "DEBIAN-MAIN"](https://imgs.xkcd.com/comics/debian_main.png "dpkg: error processing package (--purge): subprocess pre-removal script returned error exit 163: OH_GOD_THEYRE_INSIDE_MY_CLOTHES")](https://xkcd.com/797/)
+[![XKCD 797 "debian-main"](https://imgs.xkcd.com/comics/debian_main.png "dpkg: error processing package (--purge): subprocess pre-removal script returned error exit 163: OH_GOD_THEYRE_INSIDE_MY_CLOTHES")](https://xkcd.com/797/)
 
 ### Why would you do this?
 
@@ -39,6 +39,7 @@ See the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more information.
 - [Rust](./docs/Rust.md)
 - [Python](./docs/Python.md)
 - [C#/F#](./docs/.NET.md)
+- [JavaScript/TypeScript](./docs/JavaScript.md)
 
 ### Not a language but still supported
 

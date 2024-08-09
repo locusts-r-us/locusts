@@ -1,0 +1,45 @@
+name: Node.js
+
+on:
+  push:
+    paths:
+      - "**.js"
+      - "**.ts"
+      - "package.json"
+      - "packages/**"
+      - "turbo.json"
+      - ".github/workflows/node.yml"
+      - ".syncpackrc"
+  pull_request:
+    paths:
+      - "**.js"
+      - "**.ts"
+      - "package.json"
+      - "packages/**"
+      - "turbo.json"
+      - ".github/workflows/node.yml"
+      - ".syncpackrc"
+
+jobs:
+  build-and-test:
+    name: Build and Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache turborepo
+        uses: actions/cache@v4
+        with:
+          path: .turbo
+          key: ${{ runner.os }}-turbo-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-turbo-
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "latest"
+          cache: "pnpm"
+      - name: Install pnpm and dependencies
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8
+          run_install: true
