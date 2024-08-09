@@ -33,13 +33,14 @@ jobs:
           key: ${{ runner.os }}-turbo-${{ github.sha }}
           restore-keys: |
             ${{ runner.os }}-turbo-
+      - name: Install pnpm and dependencies
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: true
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "latest"
           cache: "pnpm"
-      - name: Install pnpm and dependencies
-        uses: pnpm/action-setup@v4
-        with:
-          version: 8
-          run_install: true
+      - name: Build and Test
+        run: pnpm build && pnpm test
