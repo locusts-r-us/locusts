@@ -27,7 +27,7 @@ Please include the following information:
 If you'd like to add a new language to the repository, please follow these guidelines:
 
 - The language **MUST** have some way of publishing and consuming libraries (ie. a package manager).
-- Your PR **SHOULD** (but doesn't have to) include a GitHub Actions pipeline to build, run tests, and potentially publish the library to the library location.
+- Your PR **MUST** include a GitHub Actions pipeline to build, run tests, and potentially publish the library to the library location.
   - See any of the existing language workflows for examples.
 - Your PR **MUST** include a `LANGUAGE`.md file in the `docs` directory with the following information:
   - A basic way to add the library as a dependency
