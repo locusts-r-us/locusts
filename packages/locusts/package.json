@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "author": "Matt Strapp <matt+locusts@mattstrapp.net> (https://mattstrapp.net)",
   "bugs": "https://github.com/locusts-r-us/locusts/issues",
-
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",

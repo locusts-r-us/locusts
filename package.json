@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "devDependencies": {
     "prettier": "^3.2.5",
-    "syncpack": "^12.4.0",
+    "syncpack": "13.0.0",
     "turbo": "^2.0.12",
     "typescript": "^5.4.5"
   },
