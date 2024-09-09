@@ -5,8 +5,8 @@
  * @public
  * @example
  * ```js
- * import introduce_locusts from 'locusts';
- * introduce_locusts();
+ * import introduceLocusts from 'locusts';
+ * introduceLocusts();
  * ```
  * @returns void
  */
