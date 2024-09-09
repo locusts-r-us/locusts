@@ -6,5 +6,6 @@ authors = ["Matt Strapp <matt+locusts@mattstrapp.net>"]
 readme = "docs/Rust.md"
 license = "0BSD"
 edition = "2015"
+repository = "https://github.com/locusts-r-us/locusts"
 
 [dependencies]
