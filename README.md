@@ -1,5 +1,6 @@
 # Locusts: A universal library
 
+[![BEAM](https://github.com/locusts-r-us/locusts/actions/workflows/beam.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/beam.yml)
 [![C](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml)
 [![Docker](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml)
 [![.NET](https://github.com/locusts-r-us/locusts/actions/workflows/dotnet.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/dotnet.yml)

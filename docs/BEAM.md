@@ -1,5 +1,7 @@
 # Locusts
 
+[![BEAM](https://github.com/locusts-r-us/locusts/actions/workflows/beam.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/beam.yml)
+
 **TODO: Add description**
 
 ## Installation
