@@ -12,7 +12,9 @@ defmodule Locusts.MixProject do
       name: "Locusts",
       description: "A BEAM library that introduces locusts into your codebase.",
       source_url: "https://github.com/locusts-r-us/locusts",
-      test_paths: ["tests/"]
+      test_paths: ["tests"],
+      elixirc_paths: ["src"],
+
     ]
   end
 
