@@ -41,6 +41,7 @@ See the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more information.
 - [Python](./docs/Python.md)
 - [C#/F#](./docs/.NET.md)
 - [JavaScript/TypeScript](./docs/JavaScript.md)
+- [BEAM](./docs/BEAM.md)
 
 ### Not a language but still supported
 

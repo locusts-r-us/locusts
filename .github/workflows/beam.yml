@@ -1,0 +1,35 @@
+name: BEAM
+
+on:
+  push:
+    paths:
+      - "**.ex*"
+      - "**.erl"
+      - "**.beam"
+  pull_request:
+    paths:
+      - "**.ex*"
+      - "**.erl"
+      - "**.beam"
+
+jobs:
+  build-and-test:
+    name: Build and Test
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup the BEAM
+        uses: erlef/setup-beam@v1
+        with:
+          otp-version: latest
+          elixir-version: latest
+          gleam-version: latest
+      - name: Install dependencies
+        run: mix deps.get
+      - name: Lint
+        run: mix format --check-formatted
+      - name: Test
+        run: mix test
