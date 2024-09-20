@@ -12,7 +12,5 @@
     {
       "mode": "auto"
     }
-  ],
-  "C_Cpp.default.compileCommands": "/home/user/src/locusts/libocusts/builddir/compile_commands.json",
-  "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild"
+  ]
 }
