@@ -34,7 +34,7 @@ jobs:
       - name: Build
         run: python -m build
       - name: Test
-        run: python -m unittest discover -s src/locusts-r-us
+        run: python -m unittest discover -s src
 
   publish:
     name: Publish to PyPI
