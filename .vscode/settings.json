@@ -12,5 +12,6 @@
     {
       "mode": "auto"
     }
-  ]
+  ],
+  "java.compile.nullAnalysis.mode": "automatic"
 }
