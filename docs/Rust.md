@@ -1,6 +1,8 @@
 # locusts
 
 [![Rust](https://github.com/locusts-r-us/locusts/actions/workflows/rust.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/rust.yml)
+[![Crates.io Version](https://img.shields.io/crates/v/locusts)](https://crates.io/crates/locusts)
+
 
 ## Description
 

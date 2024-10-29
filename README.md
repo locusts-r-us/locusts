@@ -2,6 +2,7 @@
 
 [![BEAM](https://github.com/locusts-r-us/locusts/actions/workflows/beam.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/beam.yml)
 [![C](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml)
+[![Deno](https://github.com/locusts-r-us/locusts/actions/workflows/deno.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/deno.yml)
 [![Docker](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml)
 [![.NET](https://github.com/locusts-r-us/locusts/actions/workflows/dotnet.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/dotnet.yml)
 [![JVM](https://github.com/locusts-r-us/locusts/actions/workflows/jvm.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/jvm.yml)
