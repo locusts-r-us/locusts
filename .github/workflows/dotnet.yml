@@ -79,4 +79,4 @@ jobs:
         run: dotnet build --configuration Release --no-restore -p:SymbolPackageFormat=snupkg
       - name: Publish the package
         run: |
-          dotnet nuget push src/bin/Release/*.nupkg -s https://api.nuget.org/v3/index.json
+          dotnet nuget push src/bin/Release/*.nupkg -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_TOKEN }}
