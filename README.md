@@ -4,10 +4,12 @@
 [![C](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml)
 [![Docker](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml)
 [![.NET](https://github.com/locusts-r-us/locusts/actions/workflows/dotnet.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/dotnet.yml)
+[![JVM](https://github.com/locusts-r-us/locusts/actions/workflows/jvm.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/jvm.yml)
 [![Go](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml)
 [![Node.js](https://github.com/locusts-r-us/locusts/actions/workflows/node.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/node.yml)
 [![Python](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml)
 [![Rust](https://github.com/locusts-r-us/locusts/actions/workflows/rust.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/rust.yml)
+
 
 We here at Locusts-R-Us have developed a series of libraries for all sorts of programming languages to introduce locusts in all sorts of codebases.
 
@@ -43,6 +45,7 @@ See the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more information.
 - [C#/F#](./docs/.NET.md)
 - [JavaScript/TypeScript](./docs/JavaScript.md)
 - [BEAM](./docs/BEAM.md)
+- [JVM](./docs/JVM.md)
 
 ### Not a language but still supported
 
