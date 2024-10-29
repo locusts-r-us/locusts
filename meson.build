@@ -1,4 +1,4 @@
-project('locusts', 'c', version: '1.0.0', default_options: ['warning_level=3'], license: '0BSD')
+project('locusts', 'c', version: '0.0.0', default_options: ['warning_level=3'], license: '0BSD')
 
 source = 'src/locusts.c'
 header = 'include/locusts.h'

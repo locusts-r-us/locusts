@@ -1,4 +1,4 @@
-AC_INIT([libocusts], [1.0.0])
+AC_INIT([libocusts], [0.0.0])
 AC_CONFIG_SRCDIR([src/locusts.c])
 AC_CONFIG_MACRO_DIRS([m4])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
