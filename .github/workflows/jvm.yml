@@ -5,12 +5,14 @@ on:
     paths:
       - "**.java"
       - "**.kt"
+      - "**.kts"
       - "**.gradle"
       - ".github/workflows/jvm.yml"
   pull_request:
     paths:
       - "**.java"
       - "**.kt"
+      - "**.kts"
       - "**.gradle"
       - ".github/workflows/jvm.yml"
 
