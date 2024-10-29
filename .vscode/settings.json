@@ -12,5 +12,9 @@
     {
       "mode": "auto"
     }
-  ]
+  ],
+  "java.compile.nullAnalysis.mode": "automatic",
+  "C_Cpp.default.compileCommands": "/home/user/src/github.com/locusts/builddir/compile_commands.json",
+  "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild",
+  "java.configuration.updateBuildConfiguration": "interactive"
 }
