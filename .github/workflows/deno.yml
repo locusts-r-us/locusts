@@ -29,4 +29,4 @@ jobs:
       - name: Test
         run: deno test src/packages/locusts/mod.ts
       - name: Publish on Tag
-        run: deno run -A jsr:@david/publish-on-tag
+        run: deno run -A jsr:@david/publish-on-tag --allow-dirty
