@@ -19,6 +19,8 @@ jobs:
           key: ${{ runner.os }}-turbo-${{ github.sha }}
           restore-keys: |
             ${{ runner.os }}-turbo-
+      - name: Install ripgrep
+        run: sudo apt-get -y install ripgrep
       - name: Install pnpm and dependencies
         uses: pnpm/action-setup@v4
         with:

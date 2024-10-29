@@ -19,6 +19,6 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo lint",
     "test": "turbo test",
-    "publish-packages": "turbo build && changeset publish"
+    "publish-packages": "bash ./contrib/version-bump && turbo build && changeset publish"
   }
 }
