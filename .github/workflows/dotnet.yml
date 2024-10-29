@@ -72,7 +72,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         env:
-          NUGET_AUTH_TOKEN: ${{ secrets.NUGET_KEY }}
+          NUGET_AUTH_TOKEN: ${{ secrets.NUGET_TOKEN }}
       - name: Install dependencies
         run: dotnet restore
       - name: Build the package
