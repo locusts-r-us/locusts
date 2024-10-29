@@ -22,7 +22,7 @@ We here at Locusts-R-Us have developed a series of libraries for all sorts of pr
 ![Crates.io Version](https://img.shields.io/crates/v/locusts?style=for-the-badge&logo=rust&color=%23f74b00)
 ![npm Version](https://img.shields.io/npm/v/locusts?style=for-the-badge&logo=npm&color=%23cb3837)
 ![JSR Version](https://img.shields.io/jsr/v/%40locusts-r-us/locusts?style=for-the-badge&logo=jsr&color=%23F7DF1E)
-![PyPI Version](https://img.shields.io/pypi/pyversions/locusts-r-us?style=for-the-badge&logo=pypi&label=pypi&color=%233775A9)
+![PyPI Version](https://img.shields.io/pypi/v/locusts-r-us?style=for-the-badge&logo=pypi&label=pypi&color=%233775A9)
 ![go.mod Version](https://img.shields.io/github/go-mod/go-version/locusts-r-us/locusts?style=for-the-badge&logo=go&color=%2300ADD8)
 ![Maven Central Version](https://img.shields.io/maven-central/v/io.github.locusts-r-us/locusts?style=for-the-badge&logo=apachemaven&color=%23C71A36)
 
