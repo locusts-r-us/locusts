@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
 if [ -z "$GIT_TAG" ]; then
-  echo "GIT_TAG is not set"
-  exit 1
+  echo "GIT_TAG is not set, guessing from changeset"
+  GIT_TAG=$(jq -r '.version' src/packages/locusts/package.json)
 fi
 
 OLD_TAG=$(jq -r '.version' package.json)
+
+echo "Bumping version from $OLD_TAG to $GIT_TAG"
 
 rg "$OLD_TAG" --files-with-matches --iglob \!\*lock\* --iglob \!go.mod --iglob \!deno.json --iglob \!package.json --iglob \!\*.md | xargs sed -i "s/$OLD_TAG/$GIT_TAG/g"
 

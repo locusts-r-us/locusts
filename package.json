@@ -20,6 +20,6 @@
     "lint": "turbo lint",
     "test": "turbo test",
     "publish-packages": "turbo build && changeset publish",
-    "versioning": "bash ./contrib/version-bump && changeset version"
+    "versioning": "changeset version && bash ./contrib/version-bump"
   }
 }
