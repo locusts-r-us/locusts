@@ -12,7 +12,7 @@ by adding `locusts` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:locusts, "~> 0.1.0"}
+    {:locusts, "~> 1.0.0"}
   ]
 end
 ```

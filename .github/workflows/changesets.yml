@@ -1,0 +1,38 @@
+name: Changesets
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  changesets:
+    name: Changesets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cache turborepo
+        uses: actions/cache@v4
+        with:
+          path: .turbo
+          key: ${{ runner.os }}-turbo-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-turbo-
+      - name: Install pnpm and dependencies
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: true
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "latest"
+      - name: Create PR or Publish
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          publish: pnpm publish-packages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_CONFIG_PROVENANCE: tre
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

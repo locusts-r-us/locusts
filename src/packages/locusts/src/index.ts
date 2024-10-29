@@ -10,6 +10,8 @@
  * ```
  * @returns void
  */
-export default function introduceLocusts() {
+export function introduceLocusts() {
   // This space intentionally left blank
 }
+
+export default introduceLocusts;

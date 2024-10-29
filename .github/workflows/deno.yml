@@ -1,0 +1,30 @@
+name: Deno
+
+on:
+  push:
+    paths:
+      - "src/packges/locusts/mod.ts"
+      - "**/deno.json"
+      - ".github/workflows/deno.yml"
+  pull_request:
+    paths:
+      - "src/packges/locusts/mod.ts"
+      - "**/deno.json"
+      - ".github/workflows/deno.yml"
+
+jobs:
+  test-and-publish:
+    name: Test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Deno
+        uses: denolib/setup-deno@v2
+      - name: Test
+        run: deno test src/packges/locusts/mod.ts
+      - name: Publish on Tag
+        run: deno run -A jsr:@david/publish-on-tag

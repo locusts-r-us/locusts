@@ -1,0 +1,14 @@
+{
+  "name": "@locusts-r-us/locusts",
+  "version": "0.0.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "dev": "deno test --watch mod.ts"
+  },
+  "license": "MIT",
+  "imports": {
+    "@std/testing": "jsr:@std/testing@1",
+    "@std/expect": "jsr:@std/expect@1",
+    "locusts": "npm:locusts"
+  }
+}

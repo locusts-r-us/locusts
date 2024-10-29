@@ -47,7 +47,7 @@ publishing {
             from(components["java"])
             groupId = "io.github.locusts-r-us"
             artifactId = "locusts"
-            version = "0.1.0"
+            version = "0.1.1"
             pom {
                 name = "Locusts"
                 description = "A JVM library that introduces locusts into your codebase."
@@ -77,7 +77,7 @@ publishing {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/locusts-r-us/locusts")
             credentials {
-                username = System.getenv("GITHUB_ACTOR")
+                username = "oauth2"
                 password = System.getenv("GITHUB_TOKEN")
             }
         }
