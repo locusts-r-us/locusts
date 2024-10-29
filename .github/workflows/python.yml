@@ -43,6 +43,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       id-token: write
+    environment:
+      name: pypi
+      url: https://pypi.org/r/locusts-r-us
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -58,3 +61,5 @@ jobs:
         run: python -m build --sdist --wheel
       - name: Publish package distributions to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          attestations: true

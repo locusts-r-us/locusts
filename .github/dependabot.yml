@@ -50,3 +50,21 @@ updates:
         applies-to: version-updates
         patterns:
           - "*"
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    groups:
+      jvm-dependencies:
+        applies-to: version-updates
+        patterns:
+          - "*"
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    groups:
+      golang-dependencies:
+        applies-to: version-updates
+        patterns:
+          - "*"
