@@ -23,8 +23,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Deno
-        uses: denolib/setup-deno@v2
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
       - name: Test
-        run: deno test src/packges/locusts/mod.ts
+        run: deno test src/packages/locusts/mod.ts
       - name: Publish on Tag
         run: deno run -A jsr:@david/publish-on-tag
