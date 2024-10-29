@@ -1,6 +1,6 @@
 # Locusts
 
-[![Go](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml)
+[![CI](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml)
 [![Go Reference](https://pkg.go.dev/badge/github.com/locusts-r-us/locusts.svg)](https://pkg.go.dev/github.com/locusts-r-us/locusts)
 
 ## Description

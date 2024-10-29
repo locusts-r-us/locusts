@@ -1,6 +1,6 @@
 # Locusts
 
-[![Docker](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml)
+[![CI](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml)
 
 A docker container containing locusts also exist.
 

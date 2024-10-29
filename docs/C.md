@@ -1,6 +1,6 @@
 # liboCusts
 
-[![C](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml)
+[![CI](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml)
 
 ## Description
 

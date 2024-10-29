@@ -1,6 +1,9 @@
 # Locusts
 
-[![BEAM](https://github.com/locusts-r-us/locusts/actions/workflows/beam.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/beam.yml)
+[![CI](https://github.com/locusts-r-us/locusts/actions/workflows/beam.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/beam.yml)
+![Hex.pm Version](https://img.shields.io/hexpm/v/locusts?logo=erlang)
+![Docs](https://img.shields.io/badge/docs-hexdocs.pm-blue?logo=elixir)
+
 
 **TODO: Add description**
 

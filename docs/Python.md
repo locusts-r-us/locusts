@@ -1,6 +1,6 @@
 # locusts-r-us
 
-[![Python](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml)
+[![CI](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml)
 
 ## Description
 
