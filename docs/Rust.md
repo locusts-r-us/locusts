@@ -4,7 +4,6 @@
 [![Crates.io Version](https://img.shields.io/crates/v/locusts?logo=rust)](https://crates.io/crates/locusts)
 [![docs.rs](https://img.shields.io/docsrs/locusts?logo=docsdotrs)](https://docs.rs/locusts)
 
-
 ## Description
 
 locusts is a library that provides a way to introduce locusts into your code.

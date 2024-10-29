@@ -7,13 +7,10 @@ fi
 
 OLD_TAG=$(jq -r '.version' package.json)
 
-rg "$OLD_TAG" --files-with-matches --iglob \!\*lock\* --iglob \!go.mod --iglob \!deno.json --iglob \!package.json | xargs sed -i "s/$OLD_TAG/$GIT_TAG/g"
+rg "$OLD_TAG" --files-with-matches --iglob \!\*lock\* --iglob \!go.mod --iglob \!deno.json --iglob \!package.json --iglob \!\*.md | xargs sed -i "s/$OLD_TAG/$GIT_TAG/g"
 
-# fiddlge with autotools
-
-AUTOTOOLS_TAG=$(echo $GIT_TAG | sed 's/\./:/g')
-OLD_TAG=$(echo $OLD_TAG | sed 's/\./:/g')
-
-echo $GIT_TAG
+# fiddle with autotools
+AUTOTOOLS_TAG=${GIT_TAG//\./:}
+OLD_TAG=${OLD_TAG//\./:}
 
 sed -i "s/$GIT_TAG/$AUTOTOOLS_TAG/g" GNUmakefile.am
