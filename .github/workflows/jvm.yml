@@ -59,6 +59,8 @@ jobs:
           cache: 'gradle'
           distribution: 'adopt'
           java-version: '11'
+      - name: Snapshot version
+        run: sed '/^version/ s/$/-SNAPSHOT/' gradle.properties -i
       - name: Build with Gradle
         run: ./gradlew build
       - name: Publish the preview package
