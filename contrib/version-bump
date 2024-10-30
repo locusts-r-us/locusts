@@ -10,6 +10,9 @@ echo "Bumping version from $OLD_TAG to $GIT_TAG"
 
 rg "$OLD_TAG" --files-with-matches --iglob \!\*lock\* --iglob \!go.mod --iglob \!deno.json --iglob \!package.json --iglob \!\*.md "$(pwd)" | xargs sed -i "s/$OLD_TAG/$GIT_TAG/g"
 
+# Bump the ruby lockfile too
+sed -i "s/$OLD_TAG/$GIT_TAG/g" Gemfile.lock
+
 # fiddle with autotools
 AUTOTOOLS_TAG=${GIT_TAG//\./:}
 OLD_TAG=${OLD_TAG//\./:}
