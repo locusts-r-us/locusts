@@ -5,4 +5,19 @@ if [ -z "$GIT_TAG" ]; then
   GIT_TAG=$(jq -r '.version' src/packages/locusts/package.json)
 fi
 
-git tag v"$GIT_TAG"
+OLD_TAG=$(jq -r '.version' package.json)
+echo "Bumping version from $OLD_TAG to $GIT_TAG"
+
+rg "$OLD_TAG" --files-with-matches --iglob \!\*lock\* --iglob \!go.mod --iglob \!deno.json --iglob \!package.json --iglob \!\*.md "$(pwd)" | xargs sed -i "s/$OLD_TAG/$GIT_TAG/g"
+
+# fiddle with autotools
+AUTOTOOLS_TAG=${GIT_TAG//\./:}
+OLD_TAG=${OLD_TAG//\./:}
+
+sed -i "s/$GIT_TAG/$AUTOTOOLS_TAG/g" GNUmakefile.am
+
+# remove the snapshot from gradle
+sed -i "s/-SNAPSHOT//g" gradle.properties
+
+# bump the main package.json too
+jq ".version = \"$GIT_TAG\"" package.json | sponge package.json
