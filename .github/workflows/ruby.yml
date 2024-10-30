@@ -1,0 +1,81 @@
+name: Ruby
+
+on:
+  push:
+    paths:
+      - "**.rb"
+      - "**.gemspec"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "Rakefile"
+      - ".github/workflows/ruby.yml"
+  pull_request:
+    paths:
+      - "**.rb"
+      - "**.gemspec"
+      - "Gemfile"
+      - "Gemfile.lock"
+      - "Rakefile"
+      - ".github/workflows/ruby.yml"
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    name: Ruby
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.3
+        bundler-cache: true
+    - name: Build and test with Rake
+      run: bundle exec rake
+
+  publish-preview:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+    name: Publish Preview to GitHub Package Registry
+    permissions:
+      packages: write
+      contents: read
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set version to pre-release
+      run: sed "s/$(jq -r .version package.json)/$(jq -r .version package.json).pre/" locusts.gemspec -i
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.3
+        bundler-cache: true
+    - name: Build gem
+      run: bundle exec rake build
+    - name: Set up GitHub Package Registry for RubyGems
+      run: |
+        mkdir -p ~/.gem
+        touch ~/.gem/credentials
+        chmod 0600 ~/.gem/credentials
+        echo ":github: Bearer ${{ secrets.GITHUB_TOKEN }}" >> ~/.gem/credentials
+    - name: Publish gem
+      run: gem push --key github --host https://rubygems.pkg.github.com/locusts-r-us pkg/*.gem
+
+  publish-release:
+    name: Push gem to RubyGems.org
+    needs: build-and-test
+    if: ${{ github.ref_type == 'tag' && startsWith(github.ref, 'refs/tags/') }}
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # IMPORTANT: this permission is mandatory for trusted publishing
+    steps:
+      # Set up
+      - uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          ruby-version: 3.3
+      - name: Build gem
+        run: bundle exec rake build
+      - name: Publish gem
+        run: gem push pkg/*.gem

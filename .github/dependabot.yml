@@ -68,3 +68,12 @@ updates:
         applies-to: version-updates
         patterns:
           - "*"
+  - package-ecosystem:  "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    groups:
+      ruby-dependencies:
+        applies-to: version-updates
+        patterns:
+          - "*"
