@@ -43,7 +43,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Set version to pre-release
-      run: sed "s/$(jq -r .version package.json)/$(jq -r .version package.json).pre/" locusts.gemspec -i
+      run: |
+        sed "s/$(jq -r .version package.json)/$(jq -r .version package.json).pre/" locusts.gemspec -i
+        sed "s/$(jq -r .version package.json)/$(jq -r .version package.json).pre/" Gemfile.lock -i
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
