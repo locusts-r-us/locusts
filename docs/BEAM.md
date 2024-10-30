@@ -4,7 +4,6 @@
 ![Hex.pm Version](https://img.shields.io/hexpm/v/locusts?logo=erlang)
 ![Docs](https://img.shields.io/badge/docs-hexdocs.pm-blue?logo=elixir)
 
-
 **TODO: Add description**
 
 ## Installation

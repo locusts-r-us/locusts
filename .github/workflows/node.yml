@@ -10,6 +10,7 @@ on:
       - "turbo.json"
       - ".github/workflows/node.yml"
       - ".syncpackrc"
+      - "**.svelte"
   pull_request:
     paths:
       - "**.js"
@@ -19,6 +20,7 @@ on:
       - "turbo.json"
       - ".github/workflows/node.yml"
       - ".syncpackrc"
+      - "**.svelte"
 
 jobs:
   build-and-test:
