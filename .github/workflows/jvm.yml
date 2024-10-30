@@ -70,7 +70,8 @@ jobs:
   publish-release:
     name: Publish Packages to Maven Central and GitHub Packages
     needs: build-and-test
-    if: ${{ github.ref_type == 'tag' && startsWith(github.ref, 'refs/tags/') }}
+    # Only run on this on proper semver (vX.Y.Z) tags
+    if: ${{ github.ref_type == 'tag' && startsWith(github.ref_name, 'v') }}
     runs-on: ubuntu-latest
     permissions:
       packages: write
