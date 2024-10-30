@@ -11,7 +11,7 @@ Why would you want to do that? I don't know.
 ## Installation
 
 ```sh
-npm add @locusts/svelte
+npm add -D @locusts/svelte
 ```
 
 ## Example
