@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
-require_relative "locusts/version"
-
 module Locusts
+  VERSION = "0.0.0"
   class Error < StandardError; end
   # Your code goes here...
 end

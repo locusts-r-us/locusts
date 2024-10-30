@@ -1,23 +1,26 @@
 # frozen_string_literal: true
 
-require_relative "lib/locusts/version"
-
 Gem::Specification.new do |spec|
   spec.name = "locusts"
-  spec.version = Locusts::VERSION
+  spec.version = "0.0.0"
   spec.authors = ["Matt Strapp"]
   spec.email = ["matt@mattstrapp.net"]
 
-  spec.summary = "A ruby library that introduces locusts to your codebase."
+  spec.summary = "A Ruby library that introduces locusts to your codebase."
   # spec.description = "TODO: Write a longer description or delete this line."
   spec.homepage = "https://github.com/locusts-r-us/locusts"
-  spec.required_ruby_version = ">= 3.0.0"
+  spec.required_ruby_version = ">= 1.6.7"
+  spec.license = "0BSD"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/locusts-r-us/locusts"
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata = {
+    "bug_tracker_uri" => "#{spec.homepage}/issues",
+    # "changelog_uri" => "#{spec.homepage}/blob/m/CHANGELOG.md",
+    "documentation_uri" => spec.homepage.to_s,
+    "homepage_uri" => spec.homepage.to_s,
+    "source_code_uri" => spec.homepage.to_s,
+  }
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -28,9 +31,9 @@ Gem::Specification.new do |spec|
         f.start_with?(*%w[bin/ test/ spec/ features/ .git .github appveyor Gemfile])
     end
   end
-  spec.bindir = "exe"
-  spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.bindir = "dist"
+  # spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
+  spec.require_paths = ["src"]
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
