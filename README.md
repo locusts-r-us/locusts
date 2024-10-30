@@ -4,15 +4,16 @@ We here at Locusts-R-Us have developed a series of libraries for all sorts of pr
 
 ## CI
 
-[![BEAM](https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/beam.yml?style=for-the-badge&logo=erlang&label=Erlang%2FElixir%2FGleam%20(BEAM))](https://github.com/locusts-r-us/locusts/actions/workflows/beam.yml)
+[![BEAM](<https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/beam.yml?style=for-the-badge&logo=erlang&label=Erlang%2FElixir%2FGleam%20(BEAM)>)](https://github.com/locusts-r-us/locusts/actions/workflows/beam.yml)
 [![C/C++](https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/c.yml?style=for-the-badge&logo=c&label=C%2FC%2B%2B)](https://github.com/locusts-r-us/locusts/actions/workflows/c.yml)
 [![Deno](https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/deno.yml?style=for-the-badge&logo=deno&label=Deno)](https://github.com/locusts-r-us/locusts/actions/workflows/deno.yml)
 [![Docker](https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/docker.yml?style=for-the-badge&logo=docker&label=Docker)](https://github.com/locusts-r-us/locusts/actions/workflows/docker.yml)
 [![.NET](https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/dotnet.yml?style=for-the-badge&logo=dotnet&label=C%23%2FF%23)](https://github.com/locusts-r-us/locusts/actions/workflows/dotnet.yml)
-[![JVM](https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/jvm.yml?style=for-the-badge&logo=kotlin&label=Java%2FKotlin%2FGroovy%20(JVM))](https://github.com/locusts-r-us/locusts/actions/workflows/jvm.yml)
+[![JVM](<https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/jvm.yml?style=for-the-badge&logo=kotlin&label=Java%2FKotlin%2FGroovy%20(JVM)>)](https://github.com/locusts-r-us/locusts/actions/workflows/jvm.yml)
 [![Go](https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/go.yml?style=for-the-badge&logo=go&label=Go)](https://github.com/locusts-r-us/locusts/actions/workflows/go.yml)
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/node.yml?style=for-the-badge&logo=nodedotjs&label=Node.JS)](https://github.com/locusts-r-us/locusts/actions/workflows/node.yml)
 [![Python](https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/python.yml?style=for-the-badge&logo=python&label=Python)](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml)
+[![Ruby](https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/ruby.yml?style=for-the-badge&logo=ruby&label=Ruby)](https://github.com/locusts-r-us/locusts/actions/workflows/ruby.yml)
 [![Rust](https://img.shields.io/github/actions/workflow/status/locusts-r-us/locusts/rust.yml?style=for-the-badge&logo=rust&label=Rust)](https://github.com/locusts-r-us/locusts/actions/workflows/rust.yml)
 
 ## Packages
@@ -24,7 +25,8 @@ We here at Locusts-R-Us have developed a series of libraries for all sorts of pr
 [![Hex.pm Version](https://img.shields.io/hexpm/v/locusts?style=for-the-badge&logo=elixir&color=%234B275F)](https://hex.pm/packages/locusts)
 [![JSR Version](https://img.shields.io/jsr/v/%40locusts-r-us/locusts?style=for-the-badge&logo=jsr&color=%23F7DF1E)](https://jsr.io/@locusts-r-us/locusts)
 [![Maven Central Version](https://img.shields.io/maven-central/v/io.github.locusts-r-us/locusts?style=for-the-badge&logo=apachemaven&color=%23C71A36)](https://github.com/locusts-r-us/locusts/issues/32)
-[![npm Version](https://img.shields.io/npm/v/locusts?style=for-the-badge&logo=npm&color=%23cb3837)](https://www.npmjs.com/package/locusts)
+[![NPM Version](https://img.shields.io/npm/v/locusts?style=for-the-badge&logo=npm&label=Base%20NPM&color=%23cb3837)](https://www.npmjs.com/package/locusts)
+[![Svelte NPM Version](https://img.shields.io/npm/v/%40locusts%2Fsvelte?style=for-the-badge&logo=svelte&label=Svelte%20NPM&color=%23FF3E00)](https://www.npmjs.com/package/@locusts/svelte)
 [![NuGet Version](https://img.shields.io/nuget/v/locusts?style=for-the-badge&logo=nuget&color=%23004880)](https://www.nuget.org/packages/locusts)
 [![PyPI Version](https://img.shields.io/pypi/v/locusts-r-us?style=for-the-badge&logo=pypi&label=pypi&color=%233775A9)](https://pypi.org/project/locusts-r-us/)
 

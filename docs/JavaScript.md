@@ -20,7 +20,7 @@ npm add locusts
 ## Example
 
 ```javascript
-import introduceLocusts from 'locusts';
+import introduceLocusts from "locusts";
 
 function main() {
   introduceLocusts();

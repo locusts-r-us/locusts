@@ -3,7 +3,6 @@
 [![CI](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/python.yml)
 ![PyPI - Version](https://img.shields.io/pypi/v/locusts-r-us)
 
-
 ## Description
 
 locusts-r-us is a library that provides a way to introduce locusts into your code.

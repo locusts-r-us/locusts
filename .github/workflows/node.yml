@@ -10,6 +10,7 @@ on:
       - "turbo.json"
       - ".github/workflows/node.yml"
       - ".syncpackrc"
+      - "**.svelte"
   pull_request:
     paths:
       - "**.js"
@@ -19,6 +20,7 @@ on:
       - "turbo.json"
       - ".github/workflows/node.yml"
       - ".syncpackrc"
+      - "**.svelte"
 
 jobs:
   build-and-test:
@@ -45,5 +47,7 @@ jobs:
         with:
           node-version: "latest"
           cache: "pnpm"
+      - name: Check formatting
+        run: pnpm ci:format
       - name: Build and Test
         run: pnpm build && pnpm test

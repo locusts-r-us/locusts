@@ -12,7 +12,7 @@
     "tsx": "^4.19.2",
     "typescript": "^5.6.3"
   },
-  "keywords": [],
+  "keywords": ["why", "joke"],
   "license": "0BSD",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

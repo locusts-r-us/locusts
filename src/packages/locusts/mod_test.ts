@@ -5,7 +5,7 @@ import { introduceLocusts } from "./mod.ts";
 
 describe("Locusts", () => {
   it("should be introduced", () => {
-    const result = introduceLocusts()
+    const result = introduceLocusts();
     expect(result).toBe(undefined);
   });
 });
