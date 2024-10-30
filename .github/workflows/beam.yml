@@ -33,3 +33,24 @@ jobs:
         run: mix format --check-formatted
       - name: Test
         run: mix test
+  publish:
+      name: Publish to hex.pm
+      needs: build-and-test
+      # Only run on this on proper semver (vX.Y.Z) tags
+      if: ${{ github.ref_type == 'tag' && startsWith(github.ref_name, 'v') }}
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+          with:
+            fetch-depth: 0
+        - name: Setup the BEAM
+          uses: erlef/setup-beam@v1
+          with:
+            otp-version: latest
+            elixir-version: latest
+            gleam-version: latest
+        - name: Publish
+          run: mix hex.publish --yes
+          env:
+            HEX_API_KEY: ${{ secrets.HEX_TOKEN }}

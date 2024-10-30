@@ -19,6 +19,7 @@ We here at Locusts-R-Us have developed a series of libraries for all sorts of pr
 
 [![Crates.io Version](https://img.shields.io/crates/v/locusts?style=for-the-badge&logo=rust&color=%23f74b00)](https://crates.io/crates/locusts)
 [![Gem Version](https://img.shields.io/gem/v/locusts?style=for-the-badge&logo=rubygems&logoColor=%23E9573F)](https://rubygems.org/gems/locusts)
+[![Docker Image Version](https://img.shields.io/docker/v/rosstheross/locusts?sort=semver&style=for-the-badge&logo=docker&logoColor=%232496ED)](https://hub.docker.com/r/rosstheross/locusts)
 [![go.mod Version](https://img.shields.io/github/go-mod/go-version/locusts-r-us/locusts?style=for-the-badge&logo=go&color=%2300ADD8)](https://pkg.go.dev/github.com/locusts-r-us/locusts)
 [![Hex.pm Version](https://img.shields.io/hexpm/v/locusts?style=for-the-badge&logo=elixir&color=%234B275F)](https://hex.pm/packages/locusts)
 [![JSR Version](https://img.shields.io/jsr/v/%40locusts-r-us/locusts?style=for-the-badge&logo=jsr&color=%23F7DF1E)](https://jsr.io/@locusts-r-us/locusts)
