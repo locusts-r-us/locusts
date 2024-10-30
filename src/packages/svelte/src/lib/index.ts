@@ -1,1 +1,1 @@
-export {default as Locusts } from "./Locusts.svelte";
+export { default as Locusts } from './Locusts.svelte';
