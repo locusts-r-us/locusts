@@ -5,14 +5,25 @@
   "author": "Matt Strapp <matt+locusts@mattstrapp.net> (https://mattstrapp.net)",
   "bugs": "https://github.com/locusts-r-us/locusts/issues",
   "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.13.0",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^22.8.4",
+    "globals": "^15.0.0",
+    "prettier": "^3.3.2",
+    "publint": "^0.2.0",
     "tsup": "^8.3.5",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3"
   },
-  "keywords": ["why", "joke"],
+  "keywords": [
+    "why",
+    "joke"
+  ],
+  "files": [
+    "dist"
+  ],
   "license": "0BSD",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -22,10 +33,10 @@
     "directory": "packages/locusts"
   },
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "tsup src/index.ts --format cjs,esm --dts && publint",
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
-    "lint": "eslint src --fix",
-    "lint:ci": "eslint src",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write . && eslint --fix .",
     "test": "node --test --import tsx ./tests/locusts.test.ts"
   },
   "publishConfig": {

@@ -5,8 +5,8 @@
 
 ## Description
 
-Locusts is a series of libraries that allows you to introduce locusts into your codebase.
-Why would you want to do that? I don't know.
+Locusts is a series of libraries that allows you to introduce locusts into your
+codebase. Why would you want to do that? I don't know.
 
 ## Installation
 

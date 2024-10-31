@@ -1,5 +1,15 @@
 {
   "workspace": [
     "./src/packages/locusts"
-  ]
+  ],
+  "lint": {
+    "exclude": [
+      "*"
+    ]
+  },
+  "fmt": {
+    "exclude": [
+      "*"
+    ]
+  }
 }

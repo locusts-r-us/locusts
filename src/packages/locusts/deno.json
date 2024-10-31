@@ -8,7 +8,12 @@
   "license": "MIT",
   "imports": {
     "@std/testing": "jsr:@std/testing@1",
-    "@std/expect": "jsr:@std/expect@1",
-    "locusts": "npm:locusts"
+    "@std/expect": "jsr:@std/expect@1"
+  },
+  "lint": {
+    "include": ["mod.ts", "mod_test.ts"]
+  },
+  "fmt": {
+    "include": ["mod.ts", "mod_test.ts"]
   }
 }

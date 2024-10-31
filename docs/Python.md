@@ -5,7 +5,8 @@
 
 ## Description
 
-locusts-r-us is a library that provides a way to introduce locusts into your code.
+locusts-r-us is a library that provides a way to introduce locusts into your
+code.
 
 Why would you want to do that? I don't know.
 
@@ -30,4 +31,5 @@ if __name__ == "__main__":
 
 ## License
 
-This project is licensed under the BSD Zero Clause License. See the [LICENSE](../LICENSE) file for details.
+This project is licensed under the BSD Zero Clause License. See the
+[LICENSE](../LICENSE) file for details.

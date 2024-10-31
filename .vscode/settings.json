@@ -13,5 +13,9 @@
       "mode": "auto"
     }
   ],
-  "java.compile.nullAnalysis.mode": "automatic"
+  "java.compile.nullAnalysis.mode": "automatic",
+  "deno.enablePaths": [
+    "src/packages/locusts/mod.ts",
+    "src/packages/locusts/mod.test.ts"
+  ]
 }

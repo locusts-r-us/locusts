@@ -30,4 +30,5 @@ func main() {
 
 ## License
 
-This project is licensed under the BSD Zero Clause License. See the [LICENSE](../LICENSE) file for details.
+This project is licensed under the BSD Zero Clause License. See the
+[LICENSE](../LICENSE) file for details.
