@@ -48,6 +48,6 @@ jobs:
           node-version: "latest"
           cache: "pnpm"
       - name: Check formatting
-        run: pnpm ci:format
+        run: pnpm lint
       - name: Build and Test
         run: pnpm build && pnpm test
