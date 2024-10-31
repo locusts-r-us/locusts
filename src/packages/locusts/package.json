@@ -5,13 +5,10 @@
   "author": "Matt Strapp <matt+locusts@mattstrapp.net> (https://mattstrapp.net)",
   "bugs": "https://github.com/locusts-r-us/locusts/issues",
   "devDependencies": {
-    "@eslint/eslintrc": "^3.1.0",
-    "@eslint/js": "^9.13.0",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^22.8.4",
     "globals": "^15.0.0",
-    "prettier": "^3.3.2",
     "publint": "^0.2.0",
     "tsup": "^8.3.5",
     "tsx": "^4.19.2",
@@ -34,6 +31,7 @@
   },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts && publint",
+    "clean": "rm -rf dist && rm -rf node_modules",
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write . && eslint --fix .",

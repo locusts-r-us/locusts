@@ -2,4 +2,9 @@
 import library from "@repo/eslint-config/eslint.library.config.js";
 
 /** @type {import("eslint").Linter.Config[]} */
-export default [...library];
+export default [
+  ...library,
+  {
+    ignores: ["dist/"],
+  },
+];

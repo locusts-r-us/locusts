@@ -6,14 +6,9 @@ import ts from "typescript-eslint";
 import prettier from "eslint-config-prettier";
 import turboPlugin from "eslint-plugin-turbo";
 
-import { resolve } from "node:path";
-
-const project = resolve(process.cwd(), "tsconfig.json");
-
 export default ts.config(
   eslint.configs.recommended,
   ...ts.configs.recommended,
-  prettier,
   {
     name: "eslint-config-turbo (recreated flat)",
     plugins: {
@@ -26,14 +21,15 @@ export default ts.config(
   {
     name: "library",
     languageOptions: {
-      // parserOptions: {
-      //   project: resolve(process.cwd(), "tsconfig.json")
-      // },
       globals: {
         ...globals.browser,
         ...globals.node,
+        React: true,
+        JSX: true,
+        Svelte: true
       },
     },
-    ignores: ["build/", ".svelte-kit/", "dist/"],
+    ignores: ["**/build/", "**/.svelte-kit/", "**/dist/"],
   },
+  prettier,
 );
