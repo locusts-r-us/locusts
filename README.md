@@ -27,7 +27,7 @@ We here at Locusts-R-Us have developed a series of libraries for all sorts of pr
 [![Maven Central Version](https://img.shields.io/maven-central/v/io.github.locusts-r-us/locusts?style=for-the-badge&logo=apachemaven&color=%23C71A36)](https://github.com/locusts-r-us/locusts/issues/32)
 [![NPM Version](https://img.shields.io/npm/v/locusts?style=for-the-badge&logo=npm&label=Base%20NPM&color=%23cb3837)](https://www.npmjs.com/package/locusts)
 [![Svelte NPM Version](https://img.shields.io/npm/v/%40locusts%2Fsvelte?style=for-the-badge&logo=svelte&label=Svelte%20NPM&color=%23FF3E00)](https://www.npmjs.com/package/@locusts/svelte)
-[![Vue NPM Version](https://img.shields.io/npm/v/%40locusts%2Fvue?style=for-the-badge&logo=vuedotjs&label=Vue%20NPM&labelColor=%234FC08D)](https://www.npmjs.com/package/@locusts/vue)
+[![Vue NPM Version](https://img.shields.io/npm/v/%40locusts%2Fvue?style=for-the-badge&logo=vuedotjs&label=Vue%20NPM&color=%234FC08D)](https://www.npmjs.com/package/@locusts/vue)
 [![NuGet Version](https://img.shields.io/nuget/v/locusts?style=for-the-badge&logo=nuget&color=%23004880)](https://www.nuget.org/packages/locusts)
 [![PyPI Version](https://img.shields.io/pypi/v/locusts-r-us?style=for-the-badge&logo=pypi&label=pypi&color=%233775A9)](https://pypi.org/project/locusts-r-us/)
 
