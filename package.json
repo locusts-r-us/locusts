@@ -13,13 +13,13 @@
   "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
   "private": true,
   "scripts": {
-    "build": "turbo build",
-    "clean": "turbo clean && rm -rf node_modules",
-    "dev": "turbo dev",
-    "format": "turbo format && prettier --write \"**/*.md\"",
-    "lint": "turbo lint",
-    "test": "turbo test",
-    "publish-packages": "turbo build && bash ./contrib/tag-repo && changeset publish",
+    "build": "turbo build --no-daemon",
+    "clean": "turbo clean --no-daemon && rm -rf node_modules",
+    "dev": "turbo dev --no-daemon",
+    "format": "turbo format  --no-daemon && prettier --write \"**/*.md\"",
+    "lint": "turbo lint --no-daemon",
+    "test": "turbo test --no-daemon",
+    "publish-packages": "turbo build --no-daemon && bash ./contrib/tag-repo && changeset publish",
     "versioning": "changeset version && bash ./contrib/version-bump"
   }
 }
