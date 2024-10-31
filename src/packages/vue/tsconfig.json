@@ -1,0 +1,19 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "dist",
+    "emitDeclarationOnly": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "useDefineForClassFields": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/main.ts",
+    "src/components/Locusts.vue"
+  ],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

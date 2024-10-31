@@ -40,6 +40,11 @@ We here at Locusts-R-Us have developed a series of libraries for all sorts of pr
 
 It's funny.
 
+### Why did you decide to use a monorepo for absolutely everything?
+
+At this point, I do not know anymore. It was probably a mistake.
+Too late to change it now.
+
 ### Do any of these libraries serve any purpose?
 
 No.

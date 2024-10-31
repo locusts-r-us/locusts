@@ -1,7 +1,3 @@
-export default {
-  languageOptions: {
-    parserOptions: {
-      project: true,
-    },
-  },
-};
+import library from "@repo/eslint-config/eslint.library.config.js";
+
+export default [...library];
