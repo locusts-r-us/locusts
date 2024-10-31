@@ -8,7 +8,6 @@ liboCusts is a member of a [series of libraries](https://github.com/locusts-r-us
 
 Why would you want to do that? I don't know.
 
-
 ## Example
 
 ```c

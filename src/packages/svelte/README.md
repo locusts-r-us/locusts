@@ -19,7 +19,7 @@ npm add -D @locusts/svelte
 
 ```svelte
 <script>
-  import Locusts from '@locusts/svelte';
+	import Locusts from '@locusts/svelte';
 </script>
 
 <Locusts />

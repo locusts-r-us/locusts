@@ -19,7 +19,7 @@ npm install @locusts/vue
 
 ```vue
 <script setup>
-import { Locusts } from '@locusts/vue';
+import { Locusts } from "@locusts/vue";
 </script>
 
 <template>
