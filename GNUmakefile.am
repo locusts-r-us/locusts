@@ -4,7 +4,7 @@ libocusts_la_SOURCES = include/locusts.h
 lib_LIBRARIES = libocusts.a
 libocusts_a_SOURCES = include/locusts.h
 include_HEADERS = include/locusts.h
-
+ACLOCAL_AMFLAGS = -I m4
 
 install-data-local:
 	mkdir -p $(libdir)/pkgconfig
