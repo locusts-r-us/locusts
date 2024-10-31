@@ -1,0 +1,55 @@
+{
+  "name": "@locusts/vue",
+  "description": "A Vue 3 component that introduces locusts into your website.",
+  "author": "Matt Strapp <matt+locusts@mattstrapp.net> (https://mattstrapp.net)",
+  "bugs": "https://github.com/locusts-r-us/locusts/issues",
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/locusts-r-us/locusts.git",
+    "directory": "packages/vue"
+  },
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/locusts.umd.cjs",
+  "module": "./dist/locusts.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/locusts.js",
+      "require": "./dist/locusts.umd.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly && publint",
+    "check": "vue-tsc --noEmit",
+    "format": "prettier --write .",
+    "lint": "prettier --check . && eslint --fix .",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "component",
+    "why",
+    "joke"
+  ],
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "eslint-plugin-vue": "^9.30.0",
+    "publint": "^0.2.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.8"
+  }
+}
