@@ -5,8 +5,7 @@
     "@changesets/cli": "^2.27.9",
     "prettier": "^3.3.2",
     "syncpack": "13.0.0",
-    "turbo": "^2.2.3",
-    "typescript": "^5.6.3"
+    "turbo": "^2.2.3"
   },
   "engines": {
     "node": ">=18"
@@ -15,6 +14,7 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
+    "clean": "turbo clean && rm -rf node_modules",
     "dev": "turbo dev",
     "format": "turbo format && prettier --write \"**/*.md\"",
     "lint": "turbo lint",

@@ -14,6 +14,11 @@
         "dist/**"
       ]
     },
+    "clean": {
+      "dependsOn": [
+        "^clean"
+      ]
+    },
     "format": {
       "dependsOn": [
         "^format"
