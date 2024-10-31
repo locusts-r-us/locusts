@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://github.com/locusts-r-us/locusts"
   spec.required_ruby_version = ">= 1.6.7"
   spec.license = "0BSD"
+  spec.extra_rdoc_files = ["docs/Ruby.md"]
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 

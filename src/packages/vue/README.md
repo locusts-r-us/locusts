@@ -1,5 +1,28 @@
-# Vue 3 + TypeScript + Vite
+# @locusts/vue
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[![CI](https://github.com/locusts-r-us/locusts/actions/workflows/node.yml/badge.svg)](https://github.com/locusts-r-us/locusts/actions/workflows/node.yml)
+[![NPM Version](https://img.shields.io/npm/v/%40locusts%2Fvue?logo=vuedotjs)](https://www.npmjs.com/package/@locusts/vue)
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Description
+
+@locusts/vue is a member of a [series of components](https://github.com/locusts-r-us/locusts) that allows you to introduce locusts into your website.
+
+Why would you want to do that? I don't know.
+
+## Installation
+
+```bash
+npm install @locusts/vue
+```
+
+## Usage
+
+```vue
+<script setup>
+import { Locusts } from '@locusts/vue';
+</script>
+
+<template>
+  <Locusts />
+</template>
+```

@@ -13,3 +13,7 @@ docker run --rm ghcr.io/locusts-r-us/locusts:master
 
 That's it. There are locusts now in your computer. What those locusts do is up
 to the reader.
+
+## License
+
+This project is licensed under the BSD Zero Clause License. See the [LICENSE](https://github.com/locusts-r-us/locusts/blob/master/LICENSE) file for details.
