@@ -26,6 +26,10 @@ jobs:
         uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
+      - name: Lint
+        run: |
+         deno lint
+         deno fmt --check
       - name: Test
         run: deno test src/packages/locusts/mod.ts
       - name: Publish on Tag

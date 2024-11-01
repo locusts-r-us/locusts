@@ -13,8 +13,8 @@ on:
       - "**.beam"
 
 jobs:
-  build-and-test:
-    name: Build and Test
+  lint-build-and-test:
+    name: Lint, Build and Test
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -35,7 +35,7 @@ jobs:
         run: mix test
   publish:
       name: Publish to hex.pm
-      needs: build-and-test
+      needs: lint-build-and-test
       # Only run on this on proper semver (vX.Y.Z) tags
       if: ${{ github.ref_type == 'tag' && startsWith(github.ref_name, 'v') }}
       runs-on: ubuntu-latest

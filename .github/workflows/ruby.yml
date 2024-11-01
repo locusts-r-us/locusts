@@ -19,7 +19,7 @@ on:
       - ".github/workflows/ruby.yml"
 
 jobs:
-  build-and-test:
+  lint-build-and-test:
     runs-on: ubuntu-latest
     name: Ruby
     steps:
@@ -29,12 +29,12 @@ jobs:
       with:
         ruby-version: ruby
         bundler-cache: true
-    - name: Build and test with Rake
+    - name: Lint, Build and Test with Rake
       run: bundle exec rake
 
   publish-preview:
     runs-on: ubuntu-latest
-    needs: build-and-test
+    needs: lint-build-and-test
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
     name: Publish Preview to GitHub Package Registry
     permissions:
@@ -64,7 +64,7 @@ jobs:
 
   publish-release:
     name: Push gem to RubyGems.org
-    needs: build-and-test
+    needs: lint-build-and-test
     # Only run on this on proper semver (vX.Y.Z) tags
     if: ${{ github.ref_type == 'tag' && startsWith(github.ref_name, 'v') }}
     runs-on: ubuntu-latest

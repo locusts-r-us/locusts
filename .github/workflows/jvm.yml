@@ -17,8 +17,8 @@ on:
       - ".github/workflows/jvm.yml"
 
 jobs:
-  build-and-test:
-    name: Build and Test
+  lint-build-and-test:
+    name: Lint, Build and Test
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
@@ -41,7 +41,7 @@ jobs:
 
   publish-snapshot:
     name: Publish Snapshot to GitHub Packages
-    needs: build-and-test
+    needs: lint-build-and-test
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
     permissions:
@@ -71,7 +71,7 @@ jobs:
 
   publish-release:
     name: Publish Packages to Maven Central and GitHub Packages
-    needs: build-and-test
+    needs: lint-build-and-test
     # Only run on this on proper semver (vX.Y.Z) tags
     if: ${{ github.ref_type == 'tag' && startsWith(github.ref_name, 'v') }}
     runs-on: ubuntu-latest

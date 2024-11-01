@@ -7,6 +7,6 @@ public class Test
     public void TestLocusts()
     {
         Locusts.IntroduceLocusts();
-        Assert.IsTrue(1==1);
+        Assert.IsTrue(1 == 1);
     }
 }

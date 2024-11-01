@@ -13,8 +13,8 @@ on:
       - ".github/workflows/go.yml"
 
 jobs:
-  build-and-test:
-    name: Build and Test
+  lint-build-and-test:
+    name: Lint, Build and Test
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false

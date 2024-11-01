@@ -23,8 +23,8 @@ on:
       - "**.svelte"
 
 jobs:
-  build-and-test:
-    name: Build and Test
+  lint-build-and-test:
+    name: Lint, Build and Test
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -49,5 +49,5 @@ jobs:
           cache: "pnpm"
       - name: Check formatting
         run: pnpm lint
-      - name: Build and Test
+      - name: Lint, Build and Test
         run: pnpm build && pnpm test

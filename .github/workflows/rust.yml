@@ -13,8 +13,8 @@ on:
       - ".github/workflows/rust.yml"
 
 jobs:
-  build-and-test:
-    name: Build and Test
+  lint-build-test:
+    name: Lint, Lint, Build and Test
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
@@ -24,12 +24,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - uses: actions-rust-lang/setup-rust-toolchain@v1
+      - name: Lint
+        run: |
+           cargo fmt --all --check
+           cargo clippy
       - name: Test
         run: cargo test --verbose
 
   publish:
     name: Publish to crates.io
-    needs: build-and-test
+    needs: lint-build-test
     # Only run on this on proper semver (vX.Y.Z) tags
     if: ${{ github.ref_type == 'tag' && startsWith(github.ref_name, 'v') }}
     runs-on: ubuntu-latest

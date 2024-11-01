@@ -15,8 +15,8 @@ on:
       - ".github/workflows/dotnet.yml"
 
 jobs:
-  build-and-test:
-    name: Build and Test
+  build-lint-and-test:
+    name: Lint, Build and Test
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
@@ -30,12 +30,14 @@ jobs:
         uses: actions/setup-dotnet@v4
       - name: Install dependencies
         run: dotnet restore
+      - name: Lint
+        run: dotnet format --verify-no-changes
       - name: Test
         run: dotnet test --no-restore
 
   publish-preview:
     name: Publish Preview NuGet to GitHub Packages
-    needs: build-and-test
+    needs: build-lint-and-test
     if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
     permissions:
@@ -61,7 +63,7 @@ jobs:
 
   publish-release:
     name: Publish Release NuGet to NuGet.org
-    needs: build-and-test
+    needs: build-lint-and-test
     # Only run on this on proper semver (vX.Y.Z) tags
     if: ${{ github.ref_type == 'tag' && startsWith(github.ref_name, 'v') }}
     runs-on: ubuntu-latest
