@@ -21,8 +21,6 @@ npm install -D @locusts/react
 import { Locusts } from "@locusts/react";
 
 export default function App() {
-  return (
-    <Locusts />
-  );
+  return <Locusts />;
 }
 ```
