@@ -12,7 +12,7 @@ Why would you want to do that? I don't know.
 ## Installation
 
 ```bash
-npm install @locusts/vue
+npm install -D @locusts/vue
 ```
 
 ## Usage
