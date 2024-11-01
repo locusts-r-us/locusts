@@ -1,12 +1,15 @@
 {
   "extends": "@repo/typescript-config/base.json",
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
     "outDir": "dist",
     "declaration": true,
     "declarationDir": "dist",
     "emitDeclarationOnly": true,
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
     "useDefineForClassFields": true
   },
   "exclude": ["node_modules", "dist"],

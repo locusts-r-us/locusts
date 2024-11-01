@@ -25,8 +25,9 @@ We here at Locusts-R-Us have developed a series of libraries for all sorts of pr
 [![Hex.pm Version](https://img.shields.io/hexpm/v/locusts?style=for-the-badge&logo=elixir&color=%234B275F)](https://hex.pm/packages/locusts)
 [![JSR Version](https://img.shields.io/jsr/v/%40locusts-r-us/locusts?style=for-the-badge&logo=jsr&color=%23F7DF1E)](https://jsr.io/@locusts-r-us/locusts)
 [![Maven Central Version](https://img.shields.io/maven-central/v/io.github.locusts-r-us/locusts?style=for-the-badge&logo=apachemaven&color=%23C71A36)](https://github.com/locusts-r-us/locusts/issues/32)
-[![NPM Version](https://img.shields.io/npm/v/locusts?style=for-the-badge&logo=npm&label=Base%20NPM&color=%23cb3837)](https://www.npmjs.com/package/locusts)
-[![Svelte NPM Version](https://img.shields.io/npm/v/%40locusts%2Fsvelte?style=for-the-badge&logo=svelte&label=Svelte%20NPM&color=%23FF3E00)](https://www.npmjs.com/package/@locusts/svelte)
+[![Base NPM Version](https://img.shields.io/npm/v/locusts?style=for-the-badge&logo=npm&label=Base%20NPM&color=%23cb3837)](https://www.npmjs.com/package/locusts)
+[![React NPM Version](https://img.shields.io/npm/v/%40locusts%2Freact?style=for-the-badge&logo=react&label=React%20NPM&color=%234FC08D)](https://www.npmjs.com/package/@locusts/react)
+[![Svelte NPM Version](https://img.shields.io/npm/v/%40locusts%2Fsvelte?style=for-the-badge&logo=svelte&label=Svelte%20NPM&color=%61DAFB)](https://www.npmjs.com/package/@locusts/svelte)
 [![Vue NPM Version](https://img.shields.io/npm/v/%40locusts%2Fvue?style=for-the-badge&logo=vuedotjs&label=Vue%20NPM&color=%234FC08D)](https://www.npmjs.com/package/@locusts/vue)
 [![NuGet Version](https://img.shields.io/nuget/v/locusts?style=for-the-badge&logo=nuget&color=%23004880)](https://www.nuget.org/packages/locusts)
 [![PyPI Version](https://img.shields.io/pypi/v/locusts-r-us?style=for-the-badge&logo=pypi&label=pypi&color=%233775A9)](https://pypi.org/project/locusts-r-us/)
@@ -76,6 +77,7 @@ See the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more information.
 - [Docker](./docs/Docker.md)
 - [Svelte](./src/packages/svelte/README.md)
 - [Vue](./src/packages/vue/README.md)
+- [React](./src/packages/react/README.md)
 
 ## License
 
