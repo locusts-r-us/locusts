@@ -10,7 +10,7 @@
     "moduleResolution": "Bundler",
     "skipLibCheck": true,
     "jsx": "react-jsx",
-    "useDefineForClassFields": true,
+    "useDefineForClassFields": true
   },
   "exclude": ["node_modules", "dist"],
   "include": ["src"]
