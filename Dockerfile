@@ -6,6 +6,7 @@ COPY . .
 RUN CGO_ENABLED=0 GOOS=${TARGETOS} GOARCH=${TARGETARCH} GOFLAGS=-buildvcs=false tinygo build -o locusts ./include
 
 FROM scratch
+USER nobody
 LABEL org.opencontainers.image.licenses=0BSD
 LABEL org.opencontainers.image.source=https://github.com/locusts-r-us/locusts
 LABEL org.opencontainers.image.title=Locusts
