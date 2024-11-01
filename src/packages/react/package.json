@@ -23,6 +23,12 @@
       "require": "./dist/locusts.umd.cjs"
     }
   },
+  "keywords": [
+    "react",
+    "component",
+    "why",
+    "joke"
+  ],
   "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
