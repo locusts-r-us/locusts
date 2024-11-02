@@ -17,7 +17,5 @@
   "deno.enablePaths": [
     "src/packages/locusts/mod.ts",
     "src/packages/locusts/mod.test.ts"
-  ],
-  "C_Cpp.default.compileCommands": "/home/user/src/github.com/locusts/builddir/compile_commands.json",
-  "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild"
+  ]
 }
