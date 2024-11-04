@@ -5,7 +5,7 @@
   "tasks": {
     "dev": "deno test --watch mod.ts"
   },
-  "license": "MIT",
+  "license": "0BSD",
   "imports": {
     "@std/testing": "jsr:@std/testing@1",
     "@std/expect": "jsr:@std/expect@1"
