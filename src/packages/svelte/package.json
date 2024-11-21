@@ -59,7 +59,7 @@
 		"@sveltejs/vite-plugin-svelte": "^4.0.1",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
-		"prettier-plugin-svelte": "^3.2.8",
+		"prettier-plugin-svelte": "^3.3.1",
 		"publint": "^0.2.0",
 		"svelte": "^5.2.7",
 		"svelte-check": "^4.0.9",
