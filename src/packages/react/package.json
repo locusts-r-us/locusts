@@ -1,6 +1,6 @@
 {
   "name": "@locusts/react",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A React component that introduces locusts into your website.",
   "author": "Matt Strapp <matt+locusts@mattstrapp.net> (https://mattstrapp.net)",
   "bugs": "https://github.com/locusts-r-us/locusts/issues",
