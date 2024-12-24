@@ -13,7 +13,7 @@ plugins {
     // Apply the java-library plugin for API and implementation separation.
     `java-library`
     id("maven-publish")
-    id("net.researchgate.release") version "3.0.2"
+    id("net.researchgate.release") version "3.1.0"
 }
 
 repositories {
