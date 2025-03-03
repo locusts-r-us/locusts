@@ -7,9 +7,9 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@types/node": "^22.13.7",
+    "@types/node": "^22.13.9",
     "globals": "^16.0.0",
-    "publint": "^0.3.7",
+    "publint": "^0.3.8",
     "tsup": "^8.4.0",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"

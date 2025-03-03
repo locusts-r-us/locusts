@@ -50,9 +50,9 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
-    "publint": "^0.3.7",
+    "publint": "^0.3.8",
     "typescript": "^5.8.2",
-    "typescript-eslint": "^8.25.0",
+    "typescript-eslint": "^8.26.0",
     "vite": "^6.2.0"
   },
   "publishConfig": {
