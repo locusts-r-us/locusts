@@ -47,7 +47,7 @@
     "@repo/typescript-config": "workspace:*",
     "@vitejs/plugin-vue": "^5.2.1",
     "eslint-plugin-vue": "^10.0.0",
-    "publint": "^0.3.8",
+    "publint": "^0.3.9",
     "typescript": "^5.8.2",
     "vite": "^6.2.1",
     "vue-tsc": "^2.2.8"
