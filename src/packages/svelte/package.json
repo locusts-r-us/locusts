@@ -54,7 +54,7 @@
 		"@repo/eslint-config": "workspace:*",
 		"@repo/typescript-config": "workspace:*",
 		"@sveltejs/adapter-auto": "^6.0.0",
-		"@sveltejs/kit": "^2.20.7",
+		"@sveltejs/kit": "^2.20.8",
 		"@sveltejs/package": "^2.3.11",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
 		"eslint-config-prettier": "^10.1.2",
