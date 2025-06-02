@@ -58,15 +58,15 @@
 		"@sveltejs/package": "^2.3.11",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
 		"eslint-config-prettier": "^10.1.5",
-		"eslint-plugin-svelte": "^3.9.0",
+		"eslint-plugin-svelte": "^3.9.1",
 		"prettier-plugin-svelte": "^3.4.0",
 		"publint": "^0.3.12",
-		"svelte": "^5.33.10",
+		"svelte": "^5.33.14",
 		"svelte-check": "^4.2.1",
 		"typescript": "^5.8.3",
-		"typescript-eslint": "^8.33.0",
+		"typescript-eslint": "^8.33.1",
 		"vite": "^6.3.5",
-		"vitest": "^3.1.4"
+		"vitest": "^3.2.0"
 	},
 	"publishConfig": {
 		"access": "public"
