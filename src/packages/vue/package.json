@@ -50,7 +50,7 @@
     "publint": "^0.3.12",
     "typescript": "^5.9.2",
     "vite": "^7.0.6",
-    "vue-tsc": "^3.0.4"
+    "vue-tsc": "^3.0.5"
   },
   "publishConfig": {
     "access": "public"
