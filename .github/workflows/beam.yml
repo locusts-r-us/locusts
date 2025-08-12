@@ -20,7 +20,7 @@ jobs:
       fail-fast: false
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Setup the BEAM
         uses: erlef/setup-beam@v1
         with:
@@ -41,7 +41,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout repository
-          uses: actions/checkout@v4
+          uses: actions/checkout@v5
           with:
             fetch-depth: 0
         - name: Setup the BEAM
