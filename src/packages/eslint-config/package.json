@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "devDependencies": {
     "@types/eslint": "^9.6.0",
-    "eslint": "^9.36.0",
+    "eslint": "^9.37.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-turbo": "^2.5.8",
     "globals": "^16.4.0",
