@@ -54,19 +54,19 @@
 		"@repo/eslint-config": "workspace:*",
 		"@repo/typescript-config": "workspace:*",
 		"@sveltejs/adapter-auto": "^7.0.0",
-		"@sveltejs/kit": "^2.47.3",
+		"@sveltejs/kit": "^2.48.0",
 		"@sveltejs/package": "^2.5.4",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.12.5",
 		"prettier-plugin-svelte": "^3.4.0",
 		"publint": "^0.3.15",
-		"svelte": "^5.41.4",
+		"svelte": "^5.42.2",
 		"svelte-check": "^4.3.3",
 		"typescript": "^5.9.3",
 		"typescript-eslint": "^8.46.2",
 		"vite": "^7.1.12",
-		"vitest": "^4.0.3"
+		"vitest": "^4.0.4"
 	},
 	"publishConfig": {
 		"access": "public"
