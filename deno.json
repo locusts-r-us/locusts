@@ -1,4 +1,5 @@
 {
+  "nodeModulesDir": "auto",
   "workspace": [
     "./src/packages/locusts"
   ],
