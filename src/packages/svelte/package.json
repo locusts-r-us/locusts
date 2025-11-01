@@ -1,7 +1,7 @@
 {
 	"name": "@locusts/svelte",
 	"description": "A svelte component that introduces locusts into your website.",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"author": "Matt Strapp <matt+locusts@mattstrapp.net> (https://mattstrapp.net)",
 	"bugs": "https://github.com/locusts-r-us/locusts/issues",
 	"scripts": {
