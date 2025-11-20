@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Ruby
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -41,7 +41,7 @@ jobs:
       packages: write
       contents: read
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
     - name: Set version to pre-release
       run: |
         sed "s/$(jq -r .version package.json)/$(jq -r .version package.json).pre/" locusts.gemspec -i
@@ -72,7 +72,7 @@ jobs:
       id-token: write # IMPORTANT: this permission is mandatory for trusted publishing
     steps:
       # Set up
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
