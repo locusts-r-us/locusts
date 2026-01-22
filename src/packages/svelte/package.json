@@ -61,12 +61,12 @@
 		"eslint-plugin-svelte": "^3.14.0",
 		"prettier-plugin-svelte": "^3.4.1",
 		"publint": "^0.3.17",
-		"svelte": "^5.47.1",
+		"svelte": "^5.48.0",
 		"svelte-check": "^4.3.5",
 		"typescript": "^5.9.3",
 		"typescript-eslint": "^8.53.1",
 		"vite": "^7.3.1",
-		"vitest": "^4.0.17"
+		"vitest": "^4.0.18"
 	},
 	"publishConfig": {
 		"access": "public"
