@@ -1,5 +1,5 @@
 lib_LTLIBRARIES = libocusts.la
-libocusts_la_LDFLAGS = -version-info 0:0:0
+libocusts_la_LDFLAGS = -version-info 1:0:0
 libocusts_la_SOURCES = include/locusts.h
 lib_LIBRARIES = libocusts.a
 libocusts_a_SOURCES = include/locusts.h
