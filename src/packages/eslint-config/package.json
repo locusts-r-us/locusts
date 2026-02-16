@@ -5,10 +5,10 @@
     "@types/eslint": "^9.6.0",
     "eslint": "^10.0.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-config-turbo": "^2.8.7",
+    "eslint-config-turbo": "^2.8.9",
     "globals": "^17.3.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.55.0"
+    "typescript-eslint": "^8.56.0"
   },
   "files": [
     "library.mjs"
