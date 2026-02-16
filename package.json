@@ -4,8 +4,8 @@
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
     "prettier": "^3.8.1",
-    "syncpack": "13.0.4",
-    "turbo": "^2.8.7"
+    "syncpack": "14.0.0",
+    "turbo": "^2.8.9"
   },
   "engines": {
     "node": ">=18"
