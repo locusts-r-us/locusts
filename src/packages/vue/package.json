@@ -45,11 +45,11 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@vitejs/plugin-vue": "^6.0.4",
+    "@vitejs/plugin-vue": "^6.0.5",
     "eslint-plugin-vue": "^10.8.0",
     "publint": "^0.3.18",
     "typescript": "^5.9.3",
-    "vite": "^7.3.1",
+    "vite": "^8.0.0",
     "vue-tsc": "^3.2.5"
   },
   "publishConfig": {
