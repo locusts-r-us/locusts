@@ -39,7 +39,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-turbo-
       - name: Install pnpm and dependencies
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v5
         with:
           run_install: true
       - name: Set up Node.js
