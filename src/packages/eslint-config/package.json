@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "devDependencies": {
     "@types/eslint": "^9.6.0",
-    "eslint": "^10.2.0",
+    "eslint": "^10.2.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-turbo": "^2.9.6",
     "globals": "^17.5.0",
-    "typescript": "^6.0.2",
+    "typescript": "^6.0.3",
     "typescript-eslint": "^8.58.2"
   },
   "files": [
