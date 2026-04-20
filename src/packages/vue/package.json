@@ -49,8 +49,8 @@
     "eslint-plugin-vue": "^10.8.0",
     "publint": "^0.3.18",
     "typescript": "^6.0.3",
-    "vite": "^8.0.8",
-    "vue-tsc": "^3.2.6"
+    "vite": "^8.0.9",
+    "vue-tsc": "^3.2.7"
   },
   "publishConfig": {
     "access": "public"
