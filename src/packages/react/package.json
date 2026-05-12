@@ -52,8 +52,8 @@
     "globals": "^17.6.0",
     "publint": "^0.3.20",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.2",
-    "vite": "^8.0.11"
+    "typescript-eslint": "^8.59.3",
+    "vite": "^8.0.12"
   },
   "publishConfig": {
     "access": "public"
