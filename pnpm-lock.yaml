@@ -60,8 +60,8 @@ importers:
         specifier: ^17.6.0
         version: 17.6.0
       publint:
-        specifier: ^0.3.20
-        version: 0.3.20
+        specifier: ^0.3.21
+        version: 0.3.21
       tsup:
         specifier: ^8.5.1
         version: 8.5.1(@swc/core@1.15.18)(postcss@8.5.14)(tsx@4.21.0)(typescript@6.0.3)
@@ -106,8 +106,8 @@ importers:
         specifier: ^17.6.0
         version: 17.6.0
       publint:
-        specifier: ^0.3.20
-        version: 0.3.20
+        specifier: ^0.3.21
+        version: 0.3.21
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -148,8 +148,8 @@ importers:
         specifier: ^3.5.2
         version: 3.5.2(prettier@3.8.3)(svelte@5.55.5(@typescript-eslint/types@8.59.3))
       publint:
-        specifier: ^0.3.20
-        version: 0.3.20
+        specifier: ^0.3.21
+        version: 0.3.21
       svelte:
         specifier: ^5.55.5
         version: 5.55.5(@typescript-eslint/types@8.59.3)
@@ -190,8 +190,8 @@ importers:
         specifier: ^10.9.1
         version: 10.9.1(@typescript-eslint/parser@8.59.3(eslint@10.3.0)(typescript@6.0.3))(eslint@10.3.0)(vue-eslint-parser@9.4.3(eslint@10.3.0))
       publint:
-        specifier: ^0.3.20
-        version: 0.3.20
+        specifier: ^0.3.21
+        version: 0.3.21
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -2603,8 +2603,8 @@ packages:
   prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
 
-  publint@0.3.20:
-    resolution: {integrity: sha512-UWqFYP7VBVCe9l/leEEGJrDs6Am4K4KapLmLi5qbt+9fA+Ny38ghdW+bw1nYfVqCK8/3kgsxjjhFjTYqYYRpyw==}
+  publint@0.3.21:
+    resolution: {integrity: sha512-OqejcnMV6E9zel2oCrUOJEiiFkGiAAni0A6ibfQNh1k9Gu5z4F+Yso8lllam7AzmV6Do0vp7u3UpZNRBwuXaHQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -5658,7 +5658,7 @@ snapshots:
       object-assign: 4.1.1
       react-is: 16.13.1
 
-  publint@0.3.20:
+  publint@0.3.21:
     dependencies:
       '@publint/pack': 0.1.4
       package-manager-detector: 1.6.0

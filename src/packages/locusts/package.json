@@ -9,7 +9,7 @@
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^25.7.0",
     "globals": "^17.6.0",
-    "publint": "^0.3.20",
+    "publint": "^0.3.21",
     "tsup": "^8.5.1",
     "tsx": "^4.21.0",
     "typescript": "^6.0.3"
