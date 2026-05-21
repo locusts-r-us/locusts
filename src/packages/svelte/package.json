@@ -59,13 +59,13 @@
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.17.1",
-		"prettier-plugin-svelte": "^4.0.0",
+		"prettier-plugin-svelte": "^4.0.1",
 		"publint": "^0.3.21",
 		"svelte": "^5.55.9",
 		"svelte-check": "^4.4.8",
 		"typescript": "^6.0.3",
 		"typescript-eslint": "^8.59.4",
-		"vite": "^8.0.13",
+		"vite": "^8.0.14",
 		"vitest": "^4.1.7"
 	},
 	"publishConfig": {
