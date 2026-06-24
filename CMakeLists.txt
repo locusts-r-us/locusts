@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(libocusts VERSION 0.0.0 DESCRIPTION "A C library that introduces locusts into your codebase" LANGUAGES C)
+project(libocusts VERSION 1.0.0 DESCRIPTION "A C library that introduces locusts into your codebase" LANGUAGES C)
 
 include(GNUInstallDirs)
 

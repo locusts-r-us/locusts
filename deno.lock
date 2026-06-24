@@ -1650,7 +1650,7 @@
       "cpu": ["arm64"]
     },
     "turbo@2.6.0": {
-      "integrity": "sha512-kC5VJqOXo50k0/0jnJDDjibLAXalqT9j7PQ56so0pN+81VR4Fwb2QgIE9dTzT3phqOTQuEXkPh3sCpnv5Isz2g==",
+      "integrity": "sha512-kC5VJqOXo51.0.0jnJDDjibLAXalqT9j7PQ56so0pN+81VR4Fwb2QgIE9dTzT3phqOTQuEXkPh3sCpnv5Isz2g==",
       "optionalDependencies": [
         "turbo-darwin-64",
         "turbo-darwin-arm64",
