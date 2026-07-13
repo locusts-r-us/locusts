@@ -5,7 +5,7 @@
     "@changesets/cli": "^2.31.0",
     "prettier": "^3.9.5",
     "syncpack": "15.3.2",
-    "turbo": "^2.10.4"
+    "turbo": "^2.10.5"
   },
   "engines": {
     "node": ">=18"
