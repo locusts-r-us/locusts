@@ -31,7 +31,7 @@ jobs:
           node-version: "latest"
       - name: Create PR or Publish
         id: changesets
-        uses: changesets/action@v1
+        uses: changesets/action@v2
         with:
           version: pnpm versioning
           publish: pnpm publish-packages
