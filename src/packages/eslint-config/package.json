@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "devDependencies": {
     "@types/eslint": "^9.6.0",
-    "eslint": "^10.9.0",
+    "eslint": "^10.9.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-turbo": "^2.10.11",
     "globals": "^17.11.0",
     "typescript": "^7.0.2",
-    "typescript-eslint": "^8.67.0"
+    "typescript-eslint": "^8.68.0"
   },
   "files": [
     "library.mjs"
