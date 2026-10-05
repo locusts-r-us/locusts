@@ -47,10 +47,10 @@
     "@repo/typescript-config": "workspace:*",
     "@vitejs/plugin-vue": "^6.0.9",
     "eslint-plugin-vue": "^10.11.1",
-    "publint": "^0.3.24",
+    "publint": "^0.3.25",
     "typescript": "^7.0.2",
-    "vite": "^8.3.1",
-    "vue-tsc": "^3.3.11"
+    "vite": "^8.3.2",
+    "vue-tsc": "^3.3.12"
   },
   "publishConfig": {
     "access": "public"
