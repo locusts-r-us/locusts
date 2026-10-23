@@ -5,7 +5,7 @@
     "@types/eslint": "^9.6.0",
     "eslint": "^10.13.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-config-turbo": "^2.11.9",
+    "eslint-config-turbo": "^2.11.10",
     "globals": "^17.13.0",
     "typescript": "^7.0.2",
     "typescript-eslint": "^8.72.0"
