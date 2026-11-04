@@ -8,7 +8,7 @@
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^26.6.6",
-    "globals": "^17.13.0",
+    "globals": "^17.14.0",
     "publint": "^0.3.25",
     "tsup": "^9.0.0",
     "tsx": "^4.23.15",
