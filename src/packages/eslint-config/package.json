@@ -8,7 +8,7 @@
     "eslint-config-turbo": "^2.11.11",
     "globals": "^17.14.0",
     "typescript": "^7.0.2",
-    "typescript-eslint": "^8.72.2"
+    "typescript-eslint": "^8.73.0"
   },
   "files": [
     "library.mjs"
